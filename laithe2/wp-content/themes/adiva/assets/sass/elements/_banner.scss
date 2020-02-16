@@ -1,0 +1,344 @@
+.banner-box {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+
+    img {
+        width: 100%;
+        @include transition_image_hover();
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        z-index: 2;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        padding: 30px;
+    }
+
+    .banner-inner {
+        width: 100%;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 1.4;
+        margin-bottom: 5px;
+    }
+
+    &.bg-bottom {
+        .banner-text {
+            top: auto;
+            bottom: 30px;
+            height: auto;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 15px 20px;
+        }
+    }
+
+    &.bottom {
+        .banner-text {
+            top: auto;
+            bottom: 60px;
+            height: auto;
+        }
+
+        .content {
+            display: inherit;
+        }
+
+        .banner-inner {
+            display: inherit;
+        }
+    }
+
+    &.pa-bg {
+        .title {
+            p {
+                background: white;
+                padding: 8px 30px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .btn-wrapper {
+        margin: 35px 0;
+    }
+
+}
+
+.content-width-10 {
+    max-width: 10%;
+}
+
+.content-width-20 {
+    max-width: 20%;
+}
+
+.content-width-30 {
+    max-width: 30%;
+}
+
+.content-width-40 {
+    max-width: 40%;
+}
+
+.content-width-50 {
+    max-width: 50%;
+}
+
+.content-width-60 {
+    max-width: 60%;
+}
+
+
+.content-width-70 {
+    max-width: 70%;
+}
+
+.content-width-80 {
+    max-width: 80%;
+}
+
+.content-width-90 {
+    max-width: 90%;
+}
+
+.content-width-100 {
+    max-width: 100%;
+}
+
+// ------------------------------------------
+// BANNER ALIGMENTS
+// ------------------------------------------
+
+//****  VERTICAL ALIGN MIDDLE ****//
+
+.banner-vertical-middle {
+	.banner-text {
+		justify-content: center;
+	}
+}
+
+//****  VERTICAL ALIGN BOTTOM ****//
+
+.banner-vertical-bottom {
+	.banner-text {
+		justify-content: flex-end;
+	}
+}
+
+
+// ------------------------------------------
+// HOVER EFFECT ZOOM IMAGE
+// ------------------------------------------
+
+.banner-hover-zoom {
+    backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	perspective: 800px;
+	-webkit-perspective: 800px;
+
+    &:hover {
+        img {
+            @include transform(scale(1.09));
+
+        }
+    }
+}
+
+// ------------------------------------------
+// HOVER EFFECT BACKGROUND AND BORDER
+// ------------------------------------------
+
+.banner-hover-background,
+.banner-hover-border {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	perspective: 800px;
+	-webkit-perspective: 800px;
+
+    .banner-text {
+        &:after {
+	    	content: '';
+	    	position: absolute;
+			top: 20px;
+		    bottom: 20px;
+		    left: 20px;
+		    right: 20px;
+		    z-index: 2;
+	    	opacity: 0;
+			backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;
+			perspective: 800px;
+			-webkit-perspective: 800px;
+			@include transform(scale(.5));
+			@include transition(all .35s cubic-bezier(0.05, 0.2, 0.1,1));
+	    }
+    }
+
+	&:hover {
+        .banner-text {
+            &:after {
+                opacity: 1;
+                @include transform(scale(1));
+            }
+        }
+	}
+}
+
+
+// ------------------------------------------
+// HOVER EFFECT ZOOM IMAGE REVERCE
+// ------------------------------------------
+
+.banner-hover-zoom-reverse {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	perspective: 800px;
+	-webkit-perspective: 800px;
+
+	img {
+		@include transform(scale(1.08));
+	}
+
+	&:hover {
+		img {
+			@include transform(none);
+		}
+	}
+}
+
+// ------------------------------------------
+// STYLE HOVER MASK
+// ------------------------------------------
+
+.banner-mask {
+	.banner-text {
+		background-color: rgba(0, 0, 0, 0.3);
+		@include transition(background-color .5s cubic-bezier(0, 0, 0.44, 1.18));
+	}
+
+	&.banner-hover-zoom,
+	&.banner-hover-zoom-reverse {
+
+		&:hover {
+			.banner-text {
+				background-color: rgba(0, 0, 0, .6);
+			}
+		}
+	}
+}
+
+
+// ------------------------------------------
+// STYLE BANER SHADOW
+// ------------------------------------------
+
+.banner-shadow {
+	box-shadow: 0 10px 20px -9px rgba(0, 0, 0, 0.7);
+}
+
+// ------------------------------------------
+// STYLE BANER BACKGROUND AND BORDER
+// ------------------------------------------
+
+.banner-background,
+.banner-border {
+	.banner-text {
+		overflow: hidden;
+		top: 20px;
+	    bottom: 20px;
+	    left: 20px;
+	    right: 20px;
+	}
+}
+
+// ------------------------------------------
+// STYLE BANER BORDER
+// ------------------------------------------
+
+.banner-border {
+	.banner-text {
+		border: 5px solid rgba(255, 255, 255, 0.3);
+	}
+}
+
+// ------------------------------------------
+// STYLE BANER BACKGROUND
+// ------------------------------------------
+
+.banner-background {
+	.banner-text {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+.banner-hover-background:not(.banner-background) {
+    .banner-text {
+        &:after {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}
+
+.banner-hover-border:not(.banner-border) {
+    .banner-text {
+        &:after {
+            border: 5px solid rgba(255,255,255,.3);
+        }
+    }
+}
+
+.banner-hover-background:not(.banner-background),
+.banner-hover-border:not(.banner-border) {
+	.banner-text {
+		overflow: hidden;
+		padding: 40px;
+
+	    &:after {
+	    	content: '';
+	    	position: absolute;
+			top: 20px;
+		    bottom: 20px;
+		    left: 20px;
+		    right: 20px;
+		    z-index: 2;
+	    	opacity: 0;
+			backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;
+			perspective: 800px;
+			-webkit-perspective: 800px;
+            @include transform(scale(.5));
+			@include transition(all .35s cubic-bezier(0.05, 0.2, 0.1,1));
+	    }
+	}
+
+	.banner-inner {
+		z-index: 4;
+	}
+
+	&:hover {
+
+		.banner-text {
+
+		    &:after {
+		    	opacity: 1;
+				@include transform(scale(1));
+		    }
+		}
+	}
+}

@@ -1,0 +1,188 @@
+.header-6 {
+    .wrap-header {
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+
+    .header-bottom {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: #e7e7e7;
+    }
+
+    .header-search {
+        flex: 0 0 600px;
+
+        .search-form {
+            display: flex;
+
+            .search-field {
+                border-right: none;
+                height: 50px;
+                line-height: 50px;
+
+                &:focus {
+                    border-color: #e6e6e6;
+                }
+            }
+
+            .search-submit {
+                right: -49px;
+                border: 1px solid #e6e6e6;
+                padding: 0;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+            }
+        }
+
+        .input-wrapper {
+            flex: 0 0 320px;
+        }
+
+        .select-box {
+            flex: 1 1 auto;
+
+            select {
+                height: 50px;
+                line-height: 50px;
+
+                &:focus {
+                    border-color: #e6e6e6;
+                }
+            }
+        }
+    }
+
+    .main-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -20px;
+        margin-right: -20px;
+
+        .header-position {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .main-navigation {
+        flex: 1 1 auto;
+    }
+
+    .primary-menu > li > a {
+        line-height: 55px;
+    }
+}
+
+.header-vertical-menu {
+    width: 320px;
+
+    .label-categories {
+        display: block;
+        background-color: #000000;
+        color: white;
+        padding: 0 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 17px;
+        margin-bottom: 0;
+        line-height: 55px;
+
+        &:after {
+            content: "\e874";
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            right: 20px;
+            text-transform: none;
+            font-size: 11px;
+            @include transition(all .3s ease);
+        }
+    }
+
+    .menu-hamburg {
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 2px;
+        background-color: white;
+        margin-right: 8px;
+
+        &:before, &:after {
+            content: '';
+            width: 16px;
+            height: 2px;
+            background-color: white;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        &:after {
+            top: -10px;
+        }
+    }
+}
+
+.vertical-category-menu-wrapper {
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: #e7e7e7;
+    border-top: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 299;
+    opacity: 0;
+    visibility: hidden;
+    @include transition(all .2s ease);
+
+    .vertical-category-menu {
+        margin-bottom: 0;
+        padding: 0;
+
+        > li {
+            > a {
+                display: block;
+                line-height: 54px;
+                border-bottom: 1px solid;
+                border-color: #F1F1F1;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            &:last-child {
+                > a {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+}
+
+.header-vertical-menu-inner {
+    &.opened-menu,
+    &:hover {
+        .vertical-category-menu-wrapper {
+            opacity: 1;
+            visibility: visible;
+            margin-top: 0;
+        }
+
+        .label-categories {
+            &:after {
+                -webkit-transform: rotate(-180deg);
+                -moz-transform: rotate(-180deg);
+                -o-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+            }
+        }
+    }
+}

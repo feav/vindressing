@@ -1,0 +1,131 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Jms Image Swatch\n"
+"POT-Creation-Date: 2017-07-27 14:04+0700\n"
+"PO-Revision-Date: 2017-07-27 14:04+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: jms-imageswatch.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/list_option.php:37
+msgid "The Setting saved!"
+msgstr ""
+
+#: admin/list_option.php:42
+msgid "Error in save process"
+msgstr ""
+
+#: admin/list_option.php:49
+msgid "Image Swatch Setting"
+msgstr ""
+
+#: admin/list_option.php:54
+msgid "Attributes Swatch"
+msgstr ""
+
+#: admin/list_option.php:67
+msgid "Attribute Show on Product Box"
+msgstr ""
+
+#: admin/list_option.php:80
+msgid "Position On Product Box"
+msgstr ""
+
+#: admin/list_option.php:84
+msgid "Before Product Box"
+msgstr ""
+
+#: admin/list_option.php:85
+msgid "Before Product Name"
+msgstr ""
+
+#: admin/list_option.php:86
+msgid "After Product Name"
+msgstr ""
+
+#: admin/list_option.php:87
+msgid "After Product Box"
+msgstr ""
+
+#: admin/list_option.php:93
+msgid "Maximum Variation Show on Product Box"
+msgstr ""
+
+#: admin/list_option.php:101
+msgid "Enable Tooltip"
+msgstr ""
+
+#: admin/list_option.php:106
+msgid "Yes"
+msgstr ""
+
+#: admin/list_option.php:110
+msgid "No"
+msgstr ""
+
+#: admin/list_option.php:117
+msgid "Save Changes"
+msgstr ""
+
+#: jms-imageswatch.php:38
+msgid "Image Swatch Enable"
+msgstr ""
+
+#: jms-imageswatch.php:63
+msgid "Disable"
+msgstr ""
+
+#: jms-imageswatch.php:64
+msgid "Enable"
+msgstr ""
+
+#: jms-imageswatch.php:97
+msgid "Variations Thumbnail"
+msgstr ""
+
+#: jms-imageswatch.php:158 jms-imageswatch.php:184
+msgid "Add Image"
+msgstr ""
+
+#: jms-imageswatch.php:182
+msgid "Choose an image for variation"
+msgstr ""
+
+#: templates/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: templates/single-product/add-to-cart/variable.php:84
+msgid "Clear"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Jms Image Swatch"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://joommasters.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Image Swatch for WooCommerce Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Joommasters"
+msgstr ""

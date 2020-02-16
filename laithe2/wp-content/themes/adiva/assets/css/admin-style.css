@@ -1,0 +1,390 @@
+.redux-container-image_select ul.redux-image-select li {
+    padding: 2px 10px;
+}
+
+.admin-color-fresh .redux-container-image_select .redux-image-select-selected img, .wp-customizer .redux-container-image_select .redux-image-select-selected img {
+    border-color: #333;
+}
+
+.redux-container-image_select .redux-image-select img, .redux-container-image_select .redux-image-select-selected img {
+    border-width: 2px;
+}
+.jms-wrap {
+    font-size: 15px;
+    margin: 25px 40px 0 20px;
+    max-width: 1050px;
+    position: relative;
+}
+.jms-wrap h1 {
+    color: #32373c;
+    font-size: 2.8em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0.2em 200px 0 0;
+    padding: 0;
+}
+.jms-wrap .about-description, .jms-wrap .about-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-top: 1.4em;
+}
+.jms-wrap .about-text {
+    color: #555d66;
+    margin: 1em 200px 1em 0;
+    min-height: 60px;
+}
+.jms-wrap .nav-tab {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Meta Box */
+
+#jms_custom_metabox .inside {
+    margin-top: 0;
+    padding: 0;
+}
+
+#jms_custom_metabox .rwmb-field {
+    position: relative;
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+}
+
+#jms_custom_metabox .rwmb-field:hover {
+    background: #f9f9f9;
+}
+
+#jms_custom_metabox .rwmb-image-select {
+    width: 150px;
+    height: 150px;
+}
+.jms-wrap.about-wrap .jms-thanks {
+  margin-top: 30px;
+}
+
+.jms-wrap.about-wrap .nav-tab-wrapper {
+  margin-bottom: 30px;
+}
+
+.jms-wrap.about-wrap table {
+  margin-bottom: 15px;
+}
+
+.jms-wrap.about-wrap mark {
+  background: transparent;
+}
+
+.jms-wrap.about-wrap .error {
+  color: #ff0000;
+}
+
+.jms-wrap.about-wrap img {
+  opacity: 1 !important;
+}
+
+.jms-install-plugins .plugin-info,
+.jms-install-demos .plugin-info {
+  font-size: 13px;
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  width: 100%;
+}
+
+.jms-install-plugins .plugin-required,
+.jms-install-demos .plugin-required,
+.jms-install-plugins .theme-update {
+  font-size: 11px;
+  background: rgba(213, 78, 33, 0.95) none repeat scroll 0 0;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.jms-install-plugins .plugin-status {
+  font-size: 11px;
+  background: rgba(213, 78, 33, 0.95) none repeat scroll 0 0;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  right: 0px;
+  background: #E35950;
+}
+
+.jms-install-plugins .plugin-status.active {
+  background: #09AEEF;
+}
+
+.jms-install-plugins .theme-update,
+.jms-install-demos .theme-update {
+  z-index: 1;
+}
+
+.jms-install-plugins .theme-browser,
+.jms-install-demos .theme-browser {
+  margin: 0 -15px;
+  display:inline-block;
+}
+
+.jms-install-plugins .theme-browser .theme,
+.jms-install-demos .theme-browser .theme {
+  padding: 0 15px;
+  margin: 0 0 30px 0;
+  width: 25%;
+  cursor: default;
+  border: none;
+  box-shadow: none;
+}
+.full-data-import {
+	display:block;
+	clear:both;
+}
+@media (max-width: 991px) {
+  .jms-install-plugins .theme-browser .theme,
+  .jms-install-demos .theme-browser .theme {
+    width: 33.333333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .jms-install-plugins .theme-browser .theme,
+  .jms-install-demos .theme-browser .theme {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .jms-install-plugins .theme-browser .theme,
+  .jms-install-demos .theme-browser .theme {
+    width: 100%;
+  }
+}
+
+.jms-install-plugins .theme-browser .theme .theme-wrapper,
+.jms-install-demos .theme-browser .theme .theme-wrapper {
+  box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.jms-install-plugins .theme-browser .theme .theme-actions,
+.jms-install-demos .theme-browser .theme .theme-actions {
+  opacity: 1 !important;
+  bottom: 1px;
+  right: 16px;  
+  top: auto;
+  height: 38px;
+  -webkit-transform: none;
+  transform: none;
+  padding: 9px 10px 0;
+}
+
+.jms-install-plugins .theme-browser .theme .theme-actions a {
+  margin-right: 0;
+}
+
+.jms-row {
+  margin: 0 -15px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.jms-row .jms-column {
+  max-width: 600px;
+}
+.jms-row.jms-two-columns .jms-column {
+  -webkit-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+}
+.jms-row.jms-three-columns .jms-column {
+  -webkit-flex: 0 0 33%;
+  flex: 0 0 33%;
+  width: 33%;
+}
+.jms-column .jms-column-inner {
+  display: -webkit-flex;
+  display: flex;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 15px;
+}
+
+.jms-box {
+  background: white;
+  display: -webkit-flex;
+  display: flex;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+.jms-box.jms-box-shadow {
+  -moz-box-shadow: #dedede 0 0 10px;
+  -webkit-box-shadow: #dedede 0 0 10px;
+  box-shadow: #dedede 0 0 10px;
+}
+
+.jms-box-header {
+  padding: 15px 20px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.jms-box-header h2 {
+  margin: 0;
+}
+
+.jms-box-label {
+  color: white;
+  padding: 5px 16px;
+  font-size: 11px;
+}
+.jms-box-label.jms-label-error {
+  background-color: #d02222;
+}
+.jms-box-label.jms-label-success {
+  background-color: #388c0d;
+}
+.jms-box-label.jms-label-warning {
+  background-color: #f9b826;
+}
+.jms-box-label.jms-label-recommended {
+  background-color: #4CAF50;
+}
+.jms-box-content {
+  padding: 0px 20px 20px 20px;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.jms-import-form {
+  display: -webkit-flex;
+  display: flex;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.jms-import-form.form-in-action .button {
+  color: transparent;
+}
+
+.jms-box-info {
+  padding: 20px 20px 0px 20px;
+  border-top: 1px solid #f5f5f5;
+}
+.jms-box-info p {
+  margin: 0;
+  font-size: 11px;
+  opacity: 0.7;
+}
+.jms-import-progress {
+    position: relative;
+    display: none;
+    position: relative;
+    height: 28px;
+    background: #F5F5F5;
+    margin: 10px 0px 10px 0px;	
+	width:100%;
+}
+.jms-import-progress::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: attr(data-progress) "%";
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;	
+}
+.jms-import-progress div {
+	height:28px;
+	background:#4CAF50;
+}
+.jms-import-form .page-preview {
+	width:100%;
+}
+.jms-import-form .page-preview img {
+	width:100%;
+	border:1px solid #dedede;
+}
+.import-form-fields {
+	width:100%;
+	margin:20px 0px;
+}
+.import-form-fields .submit {
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+.jms-warning,
+.jms-success {
+	font-size:11px;	
+}
+.import-response {
+	padding:0px 0px 10px 0px;
+}
+.highlight {
+	background:#4CAF50;
+	padding:2px 5px;
+	color:#fff;
+}
+.base-imported-alert {
+	display:none;
+}
+.base-imported .base-imported-alert {
+	display:block;
+}
+.full-import-box {
+	font-size:12px;
+	float:left;
+}
+.full-imported .import-base .button, .import-pages .button {
+    opacity: 0.3;
+}
+.full-imported .import-base input, .full-imported .import-base select, .import-pages input, .import-pages select, .import-pages input, .import-pages select {
+    pointer-events: none;
+    opacity: 0.3;
+}
+.base-imported .import-pages .button, .base-imported:not(.full-imported) .import-pages .button {
+    opacity: 1;
+}
+.full-imported .import-base, .import-pages {
+    cursor: no-drop;
+}
+.base-imported .import-pages, .base-imported:not(.full-imported) .import-pages {
+    pointer-events: inherit;
+    cursor: default;
+}
+.base-imported .import-pages input, 
+.base-imported .import-pages select, 
+.base-imported:not(.full-imported) .import-pages input, 
+.base-imported:not(.full-imported) .import-pages select {
+    pointer-events: inherit;
+    opacity: 1;
+}

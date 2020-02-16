@@ -1,0 +1,94 @@
+//------------------------------------------
+// SIZE BUTTONS
+// -----------------------------------------
+
+@mixin button-size-extra-small {
+    font-size: 11px;
+    line-height: 16px;
+    padding: 6px 10px;
+}
+
+@mixin button-size-small {
+    font-size: 12px;
+    line-height:16px;
+    padding: 10px 14px;
+}
+
+@mixin button-size-default {
+    font-size: inherit;
+    line-height: 18px;
+    padding: 12px 20px;
+}
+
+@mixin button-size-large {
+    font-size: 14px;
+    line-height:20px;
+    padding: 14px 28px;
+}
+
+@mixin button-size-extra-large {
+    font-size: 16px;
+    line-height:22px;
+    padding: 17px 35px;
+}
+
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+	-moz-transform: $transform;
+	-o-transform: $transform;
+	transform: $transform;
+}
+
+@mixin appearance($appearance) {
+	-webkit-appearance: $appearance;
+	-moz-appearance: $appearance;
+	-o-appearance: $appearance;
+	appearance: $appearance;
+}
+
+@mixin align-items($value) {
+	-webkit-box-align: $value;
+	-webkit-align-items: $value;
+	-ms-flex-align: $value;
+	align-items: $value;
+}
+
+@mixin transition_image_hover() {
+	-webkit-transition: transform 2s cubic-bezier(0,0,.44,1.18),-webkit-transform 2s cubic-bezier(0,0,.44,1.18);
+	-moz-transition: transform 2s cubic-bezier(0,0,.44,1.18),-webkit-transform 2s cubic-bezier(0,0,.44,1.18);
+	transition: transform 2s cubic-bezier(0,0,.44,1.18),-webkit-transform 2s cubic-bezier(0,0,.44,1.18);
+}
+
+@mixin flex() {
+  	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}

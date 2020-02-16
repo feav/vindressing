@@ -1,0 +1,783 @@
+0000.000 (0) Opened log file at time: Fri, 27 Dec 2019 20:20:20 +0000 on https://vindressing.fr
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.0.33 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 125.7M | 128M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 152298.4 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.007 (0) Semaphore (fd, QuvCsoptions) being initialised
+0000.009 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.011 (0) Set semaphore last lock (fd) time to 2019-12-27 20:20:20
+0000.011 (0) Semaphore lock (fd) complete
+0000.221 (0) Backup run: resumption=0, nonce=3b91f43cf9e6, file_nonce=3b91f43cf9e6 begun at=1577478020 (1s ago), job type=backup
+0000.223 (0) Scheduling a resumption (1) after 300 seconds (1577478321) in case this run gets aborted
+0000.243 (0) Checking if we have a zip executable available
+0000.244 (0) Testing: /usr/bin/zip
+0000.256 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.257 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.258 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.259 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.260 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.273 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.274 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.276 (0) Working binary zip found: /usr/bin/zip
+0000.278 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.278 (0) Creation of backups of directories: beginning
+0000.280 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.510 (0) Total entities for the zip file: 2812 directories, 16444 files (0 skipped as non-modified), 236.4 MB
+0000.516 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.523 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.527 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.530 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.533 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.534 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 16444 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.557 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: size is now: 2.60 MB
+0004.568 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 600 files added (on-disk size: 2669.5 KB)
+0004.573 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 700 files added (on-disk size: 2669.5 KB)
+0004.579 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 800 files added (on-disk size: 2669.5 KB)
+0004.583 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 900 files added (on-disk size: 2669.5 KB)
+0004.587 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1000 files added (on-disk size: 2669.5 KB)
+0004.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 16444 files batched, 501 (1002) added so far); re-opening (prior size: 2669.5 KB)
+0009.872 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: size is now: 5.70 MB
+0009.883 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1100 files added (on-disk size: 5854.2 KB)
+0009.887 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1200 files added (on-disk size: 5854.2 KB)
+0009.890 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1300 files added (on-disk size: 5854.2 KB)
+0009.893 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1400 files added (on-disk size: 5854.2 KB)
+0009.896 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1500 files added (on-disk size: 5854.2 KB)
+0009.898 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 16444 files batched, 501 (1503) added so far); re-opening (prior size: 5854.2 KB)
+0014.082 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: size is now: 7.20 MB
+0014.086 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1600 files added (on-disk size: 7405 KB)
+0014.088 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1700 files added (on-disk size: 7405 KB)
+0014.090 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1800 files added (on-disk size: 7405 KB)
+0014.093 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 1900 files added (on-disk size: 7405 KB)
+0014.096 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2000 files added (on-disk size: 7405 KB)
+0014.097 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 16444 files batched, 501 (2004) added so far); re-opening (prior size: 7405 KB)
+0018.364 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: size is now: 9.30 MB
+0018.369 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2100 files added (on-disk size: 9491.6 KB)
+0018.373 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2200 files added (on-disk size: 9491.6 KB)
+0018.376 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2300 files added (on-disk size: 9491.6 KB)
+0018.379 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2400 files added (on-disk size: 9491.6 KB)
+0018.382 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2500 files added (on-disk size: 9491.6 KB)
+0018.383 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 16444 files batched, 501 (2505) added so far); re-opening (prior size: 9491.6 KB)
+0022.713 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2600 files added (on-disk size: 10567.5 KB)
+0022.715 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2700 files added (on-disk size: 10567.5 KB)
+0022.717 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2800 files added (on-disk size: 10567.5 KB)
+0022.720 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 2900 files added (on-disk size: 10567.5 KB)
+0022.723 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3000 files added (on-disk size: 10567.5 KB)
+0022.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 16444 files batched, 501 (3006) added so far); re-opening (prior size: 10567.5 KB)
+0025.652 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: size is now: 13.90 MB
+0025.656 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3100 files added (on-disk size: 14201.7 KB)
+0025.658 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3200 files added (on-disk size: 14201.7 KB)
+0025.660 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3300 files added (on-disk size: 14201.7 KB)
+0025.662 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3400 files added (on-disk size: 14201.7 KB)
+0025.665 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3500 files added (on-disk size: 14201.7 KB)
+0025.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 16444 files batched, 501 (3507) added so far); re-opening (prior size: 14201.7 KB)
+0028.359 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3600 files added (on-disk size: 16097.7 KB)
+0028.393 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3700 files added (on-disk size: 16097.7 KB)
+0028.409 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3800 files added (on-disk size: 16097.7 KB)
+0028.419 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 3900 files added (on-disk size: 16097.7 KB)
+0028.425 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4000 files added (on-disk size: 16097.7 KB)
+0028.433 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 16444 files batched, 501 (4008) added so far); re-opening (prior size: 16097.7 KB)
+0031.228 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4100 files added (on-disk size: 17180 KB)
+0031.231 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4200 files added (on-disk size: 17180 KB)
+0031.233 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4300 files added (on-disk size: 17180 KB)
+0031.235 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4400 files added (on-disk size: 17180 KB)
+0031.238 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4500 files added (on-disk size: 17180 KB)
+0031.239 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 16444 files batched, 501 (4509) added so far); re-opening (prior size: 17180 KB)
+0033.613 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4600 files added (on-disk size: 18399.5 KB)
+0033.615 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4700 files added (on-disk size: 18399.5 KB)
+0033.618 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4800 files added (on-disk size: 18399.5 KB)
+0033.621 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 4900 files added (on-disk size: 18399.5 KB)
+0033.623 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5000 files added (on-disk size: 18399.5 KB)
+0033.624 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 16444 files batched, 501 (5010) added so far); re-opening (prior size: 18399.5 KB)
+0037.936 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5100 files added (on-disk size: 20753.6 KB)
+0037.940 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5200 files added (on-disk size: 20753.6 KB)
+0037.943 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5300 files added (on-disk size: 20753.6 KB)
+0037.946 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5400 files added (on-disk size: 20753.6 KB)
+0037.949 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5500 files added (on-disk size: 20753.6 KB)
+0037.950 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 16444 files batched, 501 (5511) added so far); re-opening (prior size: 20753.6 KB)
+0041.586 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5600 files added (on-disk size: 21959.4 KB)
+0041.590 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5700 files added (on-disk size: 21959.4 KB)
+0041.593 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5800 files added (on-disk size: 21959.4 KB)
+0041.597 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 5900 files added (on-disk size: 21959.4 KB)
+0041.600 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6000 files added (on-disk size: 21959.4 KB)
+0041.601 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 16444 files batched, 501 (6012) added so far); re-opening (prior size: 21959.4 KB)
+0045.267 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6100 files added (on-disk size: 23160.2 KB)
+0045.271 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6200 files added (on-disk size: 23160.2 KB)
+0045.277 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6300 files added (on-disk size: 23160.2 KB)
+0045.284 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6400 files added (on-disk size: 23160.2 KB)
+0045.290 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6500 files added (on-disk size: 23160.2 KB)
+0045.293 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 MB, 16444 files batched, 501 (6513) added so far); re-opening (prior size: 23160.2 KB)
+0047.664 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6600 files added (on-disk size: 26701.4 KB)
+0047.667 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6700 files added (on-disk size: 26701.4 KB)
+0047.669 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6800 files added (on-disk size: 26701.4 KB)
+0047.672 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 6900 files added (on-disk size: 26701.4 KB)
+0047.674 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7000 files added (on-disk size: 26701.4 KB)
+0047.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 16444 files batched, 501 (7014) added so far); re-opening (prior size: 26701.4 KB)
+0048.210 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7100 files added (on-disk size: 29349.6 KB)
+0048.213 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7200 files added (on-disk size: 29349.6 KB)
+0048.217 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7300 files added (on-disk size: 29349.6 KB)
+0048.220 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7400 files added (on-disk size: 29349.6 KB)
+0048.223 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7500 files added (on-disk size: 29349.6 KB)
+0048.224 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 16444 files batched, 501 (7515) added so far); re-opening (prior size: 29349.6 KB)
+0048.672 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7600 files added (on-disk size: 31714.4 KB)
+0048.684 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7700 files added (on-disk size: 31714.4 KB)
+0048.693 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7800 files added (on-disk size: 31714.4 KB)
+0048.702 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 7900 files added (on-disk size: 31714.4 KB)
+0048.713 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8000 files added (on-disk size: 31714.4 KB)
+0048.720 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 16444 files batched, 501 (8016) added so far); re-opening (prior size: 31714.4 KB)
+0049.142 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8100 files added (on-disk size: 33549.1 KB)
+0049.144 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8200 files added (on-disk size: 33549.1 KB)
+0049.146 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8300 files added (on-disk size: 33549.1 KB)
+0049.149 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8400 files added (on-disk size: 33549.1 KB)
+0049.151 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8500 files added (on-disk size: 33549.1 KB)
+0049.152 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 16444 files batched, 501 (8517) added so far); re-opening (prior size: 33549.1 KB)
+0049.458 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8600 files added (on-disk size: 35212.8 KB)
+0049.461 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8700 files added (on-disk size: 35212.8 KB)
+0049.465 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8800 files added (on-disk size: 35212.8 KB)
+0049.468 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 8900 files added (on-disk size: 35212.8 KB)
+0049.471 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9000 files added (on-disk size: 35212.8 KB)
+0049.473 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 16444 files batched, 501 (9018) added so far); re-opening (prior size: 35212.8 KB)
+0049.737 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9100 files added (on-disk size: 39861.7 KB)
+0049.740 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9200 files added (on-disk size: 39861.7 KB)
+0049.743 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9300 files added (on-disk size: 39861.7 KB)
+0049.745 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9400 files added (on-disk size: 39861.7 KB)
+0049.747 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9500 files added (on-disk size: 39861.7 KB)
+0049.748 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (24.6 MB, 16444 files batched, 501 (9519) added so far); re-opening (prior size: 39861.7 KB)
+0051.216 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: size is now: 47.90 MB
+0051.255 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9600 files added (on-disk size: 49035.9 KB)
+0051.258 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9700 files added (on-disk size: 49035.9 KB)
+0051.260 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9800 files added (on-disk size: 49035.9 KB)
+0051.264 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 9900 files added (on-disk size: 49035.9 KB)
+0051.267 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10000 files added (on-disk size: 49035.9 KB)
+0051.268 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 16444 files batched, 501 (10020) added so far); re-opening (prior size: 49035.9 KB)
+0051.627 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10100 files added (on-disk size: 50640 KB)
+0051.632 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10200 files added (on-disk size: 50640 KB)
+0051.636 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10300 files added (on-disk size: 50640 KB)
+0051.639 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10400 files added (on-disk size: 50640 KB)
+0051.643 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10500 files added (on-disk size: 50640 KB)
+0051.644 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 16444 files batched, 501 (10521) added so far); re-opening (prior size: 50640 KB)
+0052.076 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10600 files added (on-disk size: 53850.6 KB)
+0052.080 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10700 files added (on-disk size: 53850.6 KB)
+0052.083 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10800 files added (on-disk size: 53850.6 KB)
+0052.086 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 10900 files added (on-disk size: 53850.6 KB)
+0052.089 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11000 files added (on-disk size: 53850.6 KB)
+0052.090 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 16444 files batched, 501 (11022) added so far); re-opening (prior size: 53850.6 KB)
+0052.457 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11100 files added (on-disk size: 55381.7 KB)
+0052.461 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11200 files added (on-disk size: 55381.7 KB)
+0052.464 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11300 files added (on-disk size: 55381.7 KB)
+0052.467 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11400 files added (on-disk size: 55381.7 KB)
+0052.470 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11500 files added (on-disk size: 55381.7 KB)
+0052.471 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13 MB, 16444 files batched, 501 (11523) added so far); re-opening (prior size: 55381.7 KB)
+0053.007 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11600 files added (on-disk size: 63016.1 KB)
+0053.010 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11700 files added (on-disk size: 63016.1 KB)
+0053.012 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11800 files added (on-disk size: 63016.1 KB)
+0053.015 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 11900 files added (on-disk size: 63016.1 KB)
+0053.019 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12000 files added (on-disk size: 63016.1 KB)
+0053.021 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.6 MB, 16444 files batched, 501 (12024) added so far); re-opening (prior size: 63016.1 KB)
+0053.851 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12100 files added (on-disk size: 69067.2 KB)
+0053.855 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12200 files added (on-disk size: 69067.2 KB)
+0053.858 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12300 files added (on-disk size: 69067.2 KB)
+0053.861 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12400 files added (on-disk size: 69067.2 KB)
+0053.863 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12500 files added (on-disk size: 69067.2 KB)
+0053.865 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 16444 files batched, 501 (12525) added so far); re-opening (prior size: 69067.2 KB)
+0054.339 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12600 files added (on-disk size: 71010.8 KB)
+0054.343 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12700 files added (on-disk size: 71010.8 KB)
+0054.346 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12800 files added (on-disk size: 71010.8 KB)
+0054.350 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 12900 files added (on-disk size: 71010.8 KB)
+0054.352 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13000 files added (on-disk size: 71010.8 KB)
+0054.354 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 16444 files batched, 501 (13026) added so far); re-opening (prior size: 71010.8 KB)
+0054.719 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13100 files added (on-disk size: 72408.4 KB)
+0054.723 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13200 files added (on-disk size: 72408.4 KB)
+0054.726 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13300 files added (on-disk size: 72408.4 KB)
+0054.728 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13400 files added (on-disk size: 72408.4 KB)
+0054.730 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13500 files added (on-disk size: 72408.4 KB)
+0054.732 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 16444 files batched, 501 (13527) added so far); re-opening (prior size: 72408.4 KB)
+0055.238 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13600 files added (on-disk size: 74260.8 KB)
+0055.242 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13700 files added (on-disk size: 74260.8 KB)
+0055.246 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13800 files added (on-disk size: 74260.8 KB)
+0055.248 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 13900 files added (on-disk size: 74260.8 KB)
+0055.251 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14000 files added (on-disk size: 74260.8 KB)
+0055.252 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 16444 files batched, 501 (14028) added so far); re-opening (prior size: 74260.8 KB)
+0055.704 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14100 files added (on-disk size: 79481.4 KB)
+0055.706 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14200 files added (on-disk size: 79481.4 KB)
+0055.710 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14300 files added (on-disk size: 79481.4 KB)
+0055.714 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14400 files added (on-disk size: 79481.4 KB)
+0055.719 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14500 files added (on-disk size: 79481.4 KB)
+0055.722 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 16444 files batched, 501 (14529) added so far); re-opening (prior size: 79481.4 KB)
+0056.038 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14600 files added (on-disk size: 80303.5 KB)
+0056.043 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14700 files added (on-disk size: 80303.5 KB)
+0056.045 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14800 files added (on-disk size: 80303.5 KB)
+0056.048 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 14900 files added (on-disk size: 80303.5 KB)
+0056.052 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15000 files added (on-disk size: 80303.5 KB)
+0056.053 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 16444 files batched, 501 (15030) added so far); re-opening (prior size: 80303.5 KB)
+0056.750 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15100 files added (on-disk size: 82999.4 KB)
+0056.752 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15200 files added (on-disk size: 82999.4 KB)
+0056.754 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15300 files added (on-disk size: 82999.4 KB)
+0056.756 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15400 files added (on-disk size: 82999.4 KB)
+0056.759 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15500 files added (on-disk size: 82999.4 KB)
+0056.760 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.2 MB, 16444 files batched, 501 (15531) added so far); re-opening (prior size: 82999.4 KB)
+0057.781 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15600 files added (on-disk size: 88221.2 KB)
+0057.784 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15700 files added (on-disk size: 88221.2 KB)
+0057.787 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15800 files added (on-disk size: 88221.2 KB)
+0057.790 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 15900 files added (on-disk size: 88221.2 KB)
+0057.793 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 16000 files added (on-disk size: 88221.2 KB)
+0057.794 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 16444 files batched, 501 (16032) added so far); re-opening (prior size: 88221.2 KB)
+0058.094 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 16100 files added (on-disk size: 88937.5 KB)
+0058.097 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 16200 files added (on-disk size: 88937.5 KB)
+0058.100 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 16300 files added (on-disk size: 88937.5 KB)
+0058.102 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip.tmp: 16400 files added (on-disk size: 88937.5 KB)
+0059.858 (0) Created plugins zip (0) - 89938.4 KB in 59.6 s (1509.6 KB/s) (sha1: cfc361d28de6271765db17a83dffd4b2882f762d, sha256: 892731addf1812872318f06fc97c03adb4e0f0c3663579ea253321f759a80adb)
+0059.861 (0) Beginning creation of dump of themes (split every: 400 MB)
+0059.893 (0) Total entities for the zip file: 396 directories, 1761 files (0 skipped as non-modified), 99.7 MB
+0059.896 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0059.898 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0059.901 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0059.904 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.7 MB, 1761 files batched, 385 (385) added so far); re-opening (prior size: 0 KB)
+0063.681 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: size is now: 21.40 MB
+0063.684 (0) A useful amount of data was added after this amount of zip processing: 4.6 s (normalised: 4.3 s, rate: 5970.4 KB/s)
+0063.687 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.5839691162109, normalised_time=4.2878308224049, max_time=63.685889959335, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0063.689 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 400 files added (on-disk size: 21933.4 KB)
+0063.692 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 500 files added (on-disk size: 21933.4 KB)
+0063.696 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 600 files added (on-disk size: 21933.4 KB)
+0063.699 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 700 files added (on-disk size: 21933.4 KB)
+0063.703 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 800 files added (on-disk size: 21933.4 KB)
+0063.705 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (36.1 MB, 1761 files batched, 501 (886) added so far); re-opening (prior size: 21933.4 KB)
+0068.001 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: size is now: 47.80 MB
+0068.005 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 900 files added (on-disk size: 48953.7 KB)
+0068.009 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1000 files added (on-disk size: 48953.7 KB)
+0068.012 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1100 files added (on-disk size: 48953.7 KB)
+0068.016 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1200 files added (on-disk size: 48953.7 KB)
+0068.020 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1300 files added (on-disk size: 48953.7 KB)
+0068.022 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (28.9 MB, 1761 files batched, 501 (1387) added so far); re-opening (prior size: 48953.7 KB)
+0071.725 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: size is now: 74.00 MB
+0071.729 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1400 files added (on-disk size: 75751.2 KB)
+0071.731 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1500 files added (on-disk size: 75751.2 KB)
+0071.733 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1600 files added (on-disk size: 75751.2 KB)
+0071.735 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip.tmp: 1700 files added (on-disk size: 75751.2 KB)
+0073.158 (0) Created themes zip (0) - 79625.5 KB in 13.3 s (5988.6 KB/s) (sha1: 2ba873745d91107c4137aeb2ca810c49577cc312, sha256: 4c9cd6e730e0e205ea777f68132d67ad365d12a98a4540f3aa5aae77f66a1452)
+0073.160 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0073.161 (0) Looking for candidates to backup in: /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/uploads
+0073.162 (0) finding files: 2017: adding to list (1)
+0073.162 (0) finding files: 2018: adding to list (2)
+0073.163 (0) finding files: 2019: adding to list (3)
+0073.164 (0) finding files: GeoLite2-Country.mmdb: adding to list (4)
+0073.164 (0) finding files: awpcp: adding to list (5)
+0073.165 (0) finding files: fg-prestashop-to-woocommerce.log: adding to list (6)
+0073.165 (0) finding files: js_composer: adding to list (7)
+0073.166 (0) finding files: revslider: adding to list (8)
+0073.167 (0) finding files: wc-logs: adding to list (9)
+0073.167 (0) finding files: wcfm: adding to list (10)
+0073.168 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (11)
+0073.168 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (12)
+0073.169 (0) finding files: woocommerce-placeholder-160x160.png: adding to list (13)
+0073.170 (0) finding files: woocommerce-placeholder-262x328.png: adding to list (14)
+0073.171 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (15)
+0073.171 (0) finding files: woocommerce-placeholder-300x375.png: adding to list (16)
+0073.172 (0) finding files: woocommerce-placeholder-450x450.png: adding to list (17)
+0073.172 (0) finding files: woocommerce-placeholder-555x555.png: adding to list (18)
+0073.173 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (19)
+0073.174 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (20)
+0073.175 (0) finding files: woocommerce-placeholder-825x510.png: adding to list (21)
+0073.176 (0) finding files: woocommerce-placeholder.png: adding to list (22)
+0073.176 (0) finding files: woocommerce_uploads: adding to list (23)
+0073.177 (0) finding files: wp-file-manager-pro: adding to list (24)
+0073.179 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0073.217 (0) Total entities for the zip file: 401 directories, 2769 files (0 skipped as non-modified), 59.3 MB
+0073.220 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0073.222 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0073.224 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0073.227 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0073.229 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0073.230 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 2769 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0076.285 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: size is now: 3.60 MB
+0076.290 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 600 files added (on-disk size: 3716.3 KB)
+0076.292 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 700 files added (on-disk size: 3716.3 KB)
+0076.294 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 800 files added (on-disk size: 3716.3 KB)
+0076.296 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 900 files added (on-disk size: 3716.3 KB)
+0076.299 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1000 files added (on-disk size: 3716.3 KB)
+0076.299 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 2769 files batched, 501 (1002) added so far); re-opening (prior size: 3716.3 KB)
+0079.813 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: size is now: 8.90 MB
+0079.838 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1100 files added (on-disk size: 9091.1 KB)
+0079.847 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1200 files added (on-disk size: 9091.1 KB)
+0079.854 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1300 files added (on-disk size: 9091.1 KB)
+0079.862 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1400 files added (on-disk size: 9091.1 KB)
+0079.873 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1500 files added (on-disk size: 9091.1 KB)
+0079.883 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.1 MB, 2769 files batched, 501 (1503) added so far); re-opening (prior size: 9091.1 KB)
+0082.054 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: size is now: 20.80 MB
+0082.059 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1600 files added (on-disk size: 21290 KB)
+0082.062 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1700 files added (on-disk size: 21290 KB)
+0082.064 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1800 files added (on-disk size: 21290 KB)
+0082.067 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 1900 files added (on-disk size: 21290 KB)
+0082.069 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2000 files added (on-disk size: 21290 KB)
+0082.070 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23.8 MB, 2769 files batched, 501 (2004) added so far); re-opening (prior size: 21290 KB)
+0084.726 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: size is now: 42.80 MB
+0084.733 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2100 files added (on-disk size: 43792.4 KB)
+0084.738 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2200 files added (on-disk size: 43792.4 KB)
+0084.740 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2300 files added (on-disk size: 43792.4 KB)
+0084.743 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2400 files added (on-disk size: 43792.4 KB)
+0084.746 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2500 files added (on-disk size: 43792.4 KB)
+0084.747 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 2769 files batched, 501 (2505) added so far); re-opening (prior size: 43792.4 KB)
+0088.538 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2600 files added (on-disk size: 48909.5 KB)
+0088.545 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip.tmp: 2700 files added (on-disk size: 48909.5 KB)
+0091.417 (0) Created uploads zip (0) - 51936.8 KB in 18.2 s (2848 KB/s) (sha1: 44f6f1cbb580af8e3519839e9228948977ba7bd9, sha256: 1e676e36ebfc3160caf4f7dec66c2a3efb5561fcea449fb2003fe9361b9bdeed)
+0091.419 (0) Beginning backup of other directories found in the content directory (index: 0)
+0091.420 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0091.421 (0) Looking for candidates to backup in: /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content
+0091.422 (0) finding files: advanced-cache.php: adding to list (1)
+0091.422 (0) finding files: backupwordpress-9b371ab100-backups: skipping: excluded by options (glob)
+0091.423 (0) finding files: backupwordpress-9b371ab100-backups: skipping: excluded by options (glob)
+0091.423 (0) finding files: cache: skipping: excluded by options
+0091.424 (0) finding files: gallery: adding to list (2)
+0091.425 (0) finding files: index.php: adding to list (3)
+0091.425 (0) finding files: languages: adding to list (4)
+0091.426 (0) finding files: mu-plugins: adding to list (5)
+0091.426 (0) finding files: ngg: adding to list (6)
+0091.427 (0) finding files: php.ini: adding to list (7)
+0091.427 (0) finding files: plugins: skipping: this is the plugins directory
+0091.428 (0) finding files: themes: skipping: this is the themes directory
+0091.429 (0) finding files: upgrade: skipping: excluded by options
+0091.429 (0) finding files: uploads: skipping: this is the uploads directory
+0091.430 (0) finding files: wp-rocket-config: adding to list (8)
+0091.431 (0) finding files: updraft: skipping: this is the updraft directory
+0091.436 (0) Total entities for the zip file: 7 directories, 146 files (0 skipped as non-modified), 6.7 MB
+0091.439 (0) Zip: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0092.674 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-others.zip.tmp: size is now: 1.90 MB
+0092.700 (0) Created others zip (0) - 1933.9 KB in 1.3 s (1524.9 KB/s) (sha1: 513e71e987228f7996fbc749c4894dded826fda4, sha256: 807b7f7ce0d81506364b0926b882ac91d4b13cd1e333eeee998968a49dd1bfea)
+0092.704 (0) Saving backup status to database (elements: 8)
+0092.705 (0) Beginning creation of database dump (WordPress DB)
+0092.708 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0092.739 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `QuvCsoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1234 bytes total)
+0092.741 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0092.749 (0) Table QuvCsoptions: Total expected rows (approximate): 1338
+0092.845 (0) Table QuvCsoptions: Total rows added: 1334 in 0.09 seconds
+0092.848 (0) Table QuvCsoptions: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsoptions.table.gz - 250 KB)
+0092.852 (0) Table QuvCsusers: Total expected rows (approximate): 24
+0092.855 (0) Table QuvCsusers: Total rows added: 24 in 0.00 seconds
+0092.855 (0) Table QuvCsusers: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsusers.table.gz - 2.1 KB)
+0092.858 (0) Table QuvCsusermeta: Total expected rows (approximate): 1188
+0092.874 (0) Table QuvCsusermeta: Total rows added: 1188 in 0.01 seconds
+0092.875 (0) Table QuvCsusermeta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsusermeta.table.gz - 18.9 KB)
+0092.878 (0) Table QuvCscommentmeta: Total expected rows (approximate): 0
+0092.880 (0) Table QuvCscommentmeta: Total rows added: 0 in 0.00 seconds
+0092.880 (0) Table QuvCscommentmeta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCscommentmeta.table.gz - 0.4 KB)
+0092.883 (0) Table QuvCscomments: Total expected rows (approximate): 3210
+0092.944 (0) Table QuvCscomments: Total rows added: 3210 in 0.06 seconds
+0092.945 (0) Table QuvCscomments: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCscomments.table.gz - 32.8 KB)
+0092.950 (0) Table QuvCslinks: Total expected rows (approximate): 0
+0092.952 (0) Table QuvCslinks: Total rows added: 0 in 0.00 seconds
+0092.954 (0) Table QuvCslinks: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCslinks.table.gz - 0.4 KB)
+0092.958 (0) Table QuvCspostmeta: Total expected rows (approximate): 4822
+0093.030 (0) Table QuvCspostmeta: Total rows added: 4822 in 0.07 seconds
+0093.033 (0) Table QuvCspostmeta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCspostmeta.table.gz - 72.5 KB)
+0093.037 (0) Table QuvCsposts: Total expected rows (approximate): 1774
+0093.133 (0) Table QuvCsposts: Total rows added: 1774 in 0.10 seconds
+0093.134 (0) Table QuvCsposts: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsposts.table.gz - 141.1 KB)
+0093.137 (0) Table QuvCsterm_relationships: Total expected rows (approximate): 1344
+0093.145 (0) Table QuvCsterm_relationships: Total rows added: 1344 in 0.01 seconds
+0093.146 (0) Table QuvCsterm_relationships: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsterm_relationships.table.gz - 3.9 KB)
+0093.149 (0) Table QuvCsterm_taxonomy: Total expected rows (approximate): 217
+0093.153 (0) Table QuvCsterm_taxonomy: Total rows added: 217 in 0.00 seconds
+0093.153 (0) Table QuvCsterm_taxonomy: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsterm_taxonomy.table.gz - 1.9 KB)
+0093.156 (0) Table QuvCstermmeta: Total expected rows (approximate): 553
+0093.160 (0) Table QuvCstermmeta: Total rows added: 553 in 0.00 seconds
+0093.161 (0) Table QuvCstermmeta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCstermmeta.table.gz - 3.8 KB)
+0093.167 (0) Table QuvCsterms: Total expected rows (approximate): 217
+0093.170 (0) Table QuvCsterms: Total rows added: 217 in 0.00 seconds
+0093.170 (0) Table QuvCsterms: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsterms.table.gz - 3 KB)
+0093.174 (0) Table QuvCswc_category_lookup: Total expected rows (approximate): 310
+0093.377 (0) Table QuvCswc_category_lookup: Total rows added: 310 in 0.20 seconds
+0093.379 (0) Table QuvCswc_category_lookup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_category_lookup.table.gz - 1.2 KB)
+0093.383 (0) Table QuvCswc_product_meta_lookup: Total expected rows (approximate): 2035
+0093.415 (0) Table QuvCswc_product_meta_lookup: Total rows added: 2035 in 0.03 seconds
+0093.417 (0) Table QuvCswc_product_meta_lookup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_product_meta_lookup.table.gz - 6.7 KB)
+0093.421 (0) Table QuvCswc_tax_rate_classes: Total expected rows (approximate): 4
+0093.423 (0) Table QuvCswc_tax_rate_classes: Total rows added: 4 in 0.00 seconds
+0093.424 (0) Table QuvCswc_tax_rate_classes: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_tax_rate_classes.table.gz - 0.4 KB)
+0093.427 (0) Table QuvCswoocommerce_order_itemmeta: Total expected rows (approximate): 36
+0093.430 (0) Table QuvCswoocommerce_order_itemmeta: Total rows added: 36 in 0.00 seconds
+0093.430 (0) Table QuvCswoocommerce_order_itemmeta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_order_itemmeta.table.gz - 0.8 KB)
+0093.433 (0) Table QuvCswoocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0093.435 (0) Table QuvCswoocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0093.436 (0) Table QuvCswoocommerce_payment_tokenmeta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0093.440 (0) Table QuvCsyoast_seo_links: Total expected rows (approximate): 347
+0093.445 (0) Table QuvCsyoast_seo_links: Total rows added: 347 in 0.00 seconds
+0093.446 (0) Table QuvCsyoast_seo_links: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyoast_seo_links.table.gz - 2.8 KB)
+0093.450 (0) Table QuvCsyoast_seo_meta: Total expected rows (approximate): 1928
+0093.463 (0) Table QuvCsyoast_seo_meta: Total rows added: 1928 in 0.01 seconds
+0093.464 (0) Table QuvCsyoast_seo_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyoast_seo_meta.table.gz - 5 KB)
+0093.468 (0) Table QuvCsbw_pricing_items: Total expected rows (approximate): 0
+0093.469 (0) Table QuvCsbw_pricing_items: Total rows added: 0 in 0.00 seconds
+0093.470 (0) Table QuvCsbw_pricing_items: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsbw_pricing_items.table.gz - 0.4 KB)
+0093.474 (0) Table QuvCsfailed_jobs: Total expected rows (approximate): 0
+0093.476 (0) Table QuvCsfailed_jobs: Total rows added: 0 in 0.00 seconds
+0093.476 (0) Table QuvCsfailed_jobs: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsfailed_jobs.table.gz - 0.3 KB)
+0093.479 (0) Table QuvCsmailchimp_carts: Total expected rows (approximate): 0
+0093.481 (0) Table QuvCsmailchimp_carts: Total rows added: 0 in 0.00 seconds
+0093.481 (0) Table QuvCsmailchimp_carts: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsmailchimp_carts.table.gz - 0.3 KB)
+0093.484 (0) Table QuvCsmailchimp_jobs: Total expected rows (approximate): 0
+0093.486 (0) Table QuvCsmailchimp_jobs: Total rows added: 0 in 0.00 seconds
+0093.487 (0) Table QuvCsmailchimp_jobs: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsmailchimp_jobs.table.gz - 0.3 KB)
+0093.491 (0) Table QuvCspbs: Total expected rows (approximate): 0
+0093.494 (0) Table QuvCspbs: Total rows added: 0 in 0.00 seconds
+0093.494 (0) Table QuvCspbs: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCspbs.table.gz - 0.3 KB)
+0093.500 (0) Table QuvCsqueue: Total expected rows (approximate): 0
+0093.502 (0) Table QuvCsqueue: Total rows added: 0 in 0.00 seconds
+0093.503 (0) Table QuvCsqueue: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsqueue.table.gz - 0.3 KB)
+0093.507 (0) Table QuvCsrevslider_css: Total expected rows (approximate): 109
+0093.517 (0) Table QuvCsrevslider_css: Total rows added: 109 in 0.01 seconds
+0093.518 (0) Table QuvCsrevslider_css: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_css.table.gz - 4.9 KB)
+0093.523 (0) Table QuvCsrevslider_layer_animations: Total expected rows (approximate): 0
+0093.526 (0) Table QuvCsrevslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0093.527 (0) Table QuvCsrevslider_layer_animations: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_layer_animations.table.gz - 0.3 KB)
+0093.531 (0) Table QuvCsrevslider_navigations: Total expected rows (approximate): 1
+0093.534 (0) Table QuvCsrevslider_navigations: Total rows added: 1 in 0.00 seconds
+0093.534 (0) Table QuvCsrevslider_navigations: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_navigations.table.gz - 0.8 KB)
+0093.538 (0) Table QuvCsrevslider_sliders: Total expected rows (approximate): 14
+0093.546 (0) Table QuvCsrevslider_sliders: Total rows added: 14 in 0.01 seconds
+0093.547 (0) Table QuvCsrevslider_sliders: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_sliders.table.gz - 5.9 KB)
+0093.552 (0) Table QuvCsrevslider_slides: Total expected rows (approximate): 32
+0093.603 (0) Table QuvCsrevslider_slides: Total rows added: 32 in 0.05 seconds
+0093.605 (0) Table QuvCsrevslider_slides: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_slides.table.gz - 74.9 KB)
+0093.609 (0) Table QuvCsrevslider_static_slides: Total expected rows (approximate): 1
+0093.612 (0) Table QuvCsrevslider_static_slides: Total rows added: 1 in 0.00 seconds
+0093.613 (0) Table QuvCsrevslider_static_slides: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_static_slides.table.gz - 0.4 KB)
+0093.618 (0) Table QuvCswc_admin_note_actions: Total expected rows (approximate): 8
+0093.624 (0) Table QuvCswc_admin_note_actions: Total rows added: 8 in 0.00 seconds
+0093.624 (0) Table QuvCswc_admin_note_actions: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_admin_note_actions.table.gz - 0.7 KB)
+0093.627 (0) Table QuvCswc_admin_notes: Total expected rows (approximate): 7
+0093.630 (0) Table QuvCswc_admin_notes: Total rows added: 7 in 0.00 seconds
+0093.631 (0) Table QuvCswc_admin_notes: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_admin_notes.table.gz - 1.2 KB)
+0093.635 (0) Table QuvCswc_customer_lookup: Total expected rows (approximate): 1
+0093.641 (0) Table QuvCswc_customer_lookup: Total rows added: 1 in 0.01 seconds
+0093.642 (0) Table QuvCswc_customer_lookup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_customer_lookup.table.gz - 0.6 KB)
+0093.648 (0) Table QuvCswc_download_log: Total expected rows (approximate): 0
+0093.650 (0) Table QuvCswc_download_log: Total rows added: 0 in 0.00 seconds
+0093.651 (0) Table QuvCswc_download_log: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_download_log.table.gz - 0.4 KB)
+0093.655 (0) Table QuvCswc_order_coupon_lookup: Total expected rows (approximate): 0
+0093.656 (0) Table QuvCswc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0093.657 (0) Table QuvCswc_order_coupon_lookup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_coupon_lookup.table.gz - 0.4 KB)
+0093.661 (0) Table QuvCswc_order_product_lookup: Total expected rows (approximate): 1
+0093.666 (0) Table QuvCswc_order_product_lookup: Total rows added: 1 in 0.00 seconds
+0093.667 (0) Table QuvCswc_order_product_lookup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_product_lookup.table.gz - 0.5 KB)
+0093.670 (0) Table QuvCswc_order_stats: Total expected rows (approximate): 1
+0093.672 (0) Table QuvCswc_order_stats: Total rows added: 1 in 0.00 seconds
+0093.673 (0) Table QuvCswc_order_stats: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_stats.table.gz - 0.5 KB)
+0093.682 (0) Table QuvCswc_order_tax_lookup: Total expected rows (approximate): 0
+0093.684 (0) Table QuvCswc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0093.685 (0) Table QuvCswc_order_tax_lookup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_tax_lookup.table.gz - 0.4 KB)
+0093.692 (0) Table QuvCswc_webhooks: Total expected rows (approximate): 0
+0093.700 (0) Table QuvCswc_webhooks: Total rows added: 0 in 0.01 seconds
+0093.704 (0) Table QuvCswc_webhooks: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_webhooks.table.gz - 0.5 KB)
+0093.709 (0) Table QuvCswcfm_daily_analysis: Total expected rows (approximate): 7889
+0093.783 (0) Table QuvCswcfm_daily_analysis: Total rows added: 7889 in 0.07 seconds
+0093.784 (0) Table QuvCswcfm_daily_analysis: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_daily_analysis.table.gz - 39 KB)
+0093.788 (0) Table QuvCswcfm_detailed_analysis: Total expected rows (approximate): 17945
+0093.924 (0) Table QuvCswcfm_detailed_analysis: binary mysqldump finished (writes: 40) in 0.14 seconds
+0093.926 (0) Table QuvCswcfm_detailed_analysis: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_detailed_analysis.table.gz - 156.2 KB)
+0093.932 (0) Table QuvCswcfm_enquiries: Total expected rows (approximate): 0
+0093.940 (0) Table QuvCswcfm_enquiries: Total rows added: 0 in 0.01 seconds
+0093.942 (0) Table QuvCswcfm_enquiries: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries.table.gz - 0.4 KB)
+0093.948 (0) Table QuvCswcfm_enquiries_meta: Total expected rows (approximate): 0
+0093.950 (0) Table QuvCswcfm_enquiries_meta: Total rows added: 0 in 0.00 seconds
+0093.951 (0) Table QuvCswcfm_enquiries_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries_meta.table.gz - 0.3 KB)
+0093.954 (0) Table QuvCswcfm_enquiries_response: Total expected rows (approximate): 0
+0093.956 (0) Table QuvCswcfm_enquiries_response: Total rows added: 0 in 0.00 seconds
+0093.958 (0) Table QuvCswcfm_enquiries_response: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries_response.table.gz - 0.4 KB)
+0093.962 (0) Table QuvCswcfm_enquiries_response_meta: Total expected rows (approximate): 0
+0093.963 (0) Table QuvCswcfm_enquiries_response_meta: Total rows added: 0 in 0.00 seconds
+0093.964 (0) Table QuvCswcfm_enquiries_response_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries_response_meta.table.gz - 0.3 KB)
+0093.969 (0) Table QuvCswcfm_following_followers: Total expected rows (approximate): 1
+0093.975 (0) Table QuvCswcfm_following_followers: Total rows added: 1 in 0.00 seconds
+0093.975 (0) Table QuvCswcfm_following_followers: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_following_followers.table.gz - 0.5 KB)
+0093.979 (0) Table QuvCswcfm_marketplace_orders: Total expected rows (approximate): 0
+0093.982 (0) Table QuvCswcfm_marketplace_orders: Total rows added: 0 in 0.00 seconds
+0093.983 (0) Table QuvCswcfm_marketplace_orders: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_orders.table.gz - 0.7 KB)
+0093.987 (0) Table QuvCswcfm_marketplace_orders_meta: Total expected rows (approximate): 0
+0093.990 (0) Table QuvCswcfm_marketplace_orders_meta: Total rows added: 0 in 0.00 seconds
+0093.991 (0) Table QuvCswcfm_marketplace_orders_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_orders_meta.table.gz - 0.3 KB)
+0093.995 (0) Table QuvCswcfm_marketplace_product_multivendor: Total expected rows (approximate): 0
+0093.997 (0) Table QuvCswcfm_marketplace_product_multivendor: Total rows added: 0 in 0.00 seconds
+0093.998 (0) Table QuvCswcfm_marketplace_product_multivendor: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_product_multivendor.table.gz - 0.4 KB)
+0094.002 (0) Table QuvCswcfm_marketplace_refund_request: Total expected rows (approximate): 0
+0094.004 (0) Table QuvCswcfm_marketplace_refund_request: Total rows added: 0 in 0.00 seconds
+0094.005 (0) Table QuvCswcfm_marketplace_refund_request: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_refund_request.table.gz - 0.5 KB)
+0094.008 (0) Table QuvCswcfm_marketplace_refund_request_meta: Total expected rows (approximate): 0
+0094.011 (0) Table QuvCswcfm_marketplace_refund_request_meta: Total rows added: 0 in 0.00 seconds
+0094.012 (0) Table QuvCswcfm_marketplace_refund_request_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_refund_request_meta.table.gz - 0.3 KB)
+0094.016 (0) Table QuvCswcfm_marketplace_reverse_withdrawal: Total expected rows (approximate): 0
+0094.018 (0) Table QuvCswcfm_marketplace_reverse_withdrawal: Total rows added: 0 in 0.00 seconds
+0094.019 (0) Table QuvCswcfm_marketplace_reverse_withdrawal: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reverse_withdrawal.table.gz - 0.5 KB)
+0094.023 (0) Table QuvCswcfm_marketplace_reverse_withdrawal_meta: Total expected rows (approximate): 0
+0094.025 (0) Table QuvCswcfm_marketplace_reverse_withdrawal_meta: Total rows added: 0 in 0.00 seconds
+0094.026 (0) Table QuvCswcfm_marketplace_reverse_withdrawal_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reverse_withdrawal_meta.table.gz - 0.3 KB)
+0094.029 (0) Table QuvCswcfm_marketplace_review_rating_meta: Total expected rows (approximate): 0
+0094.031 (0) Table QuvCswcfm_marketplace_review_rating_meta: Total rows added: 0 in 0.00 seconds
+0094.032 (0) Table QuvCswcfm_marketplace_review_rating_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_review_rating_meta.table.gz - 0.3 KB)
+0094.040 (0) Table QuvCswcfm_marketplace_reviews: Total expected rows (approximate): 0
+0094.042 (0) Table QuvCswcfm_marketplace_reviews: Total rows added: 0 in 0.00 seconds
+0094.043 (0) Table QuvCswcfm_marketplace_reviews: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reviews.table.gz - 0.4 KB)
+0094.046 (0) Table QuvCswcfm_marketplace_reviews_response: Total expected rows (approximate): 0
+0094.049 (0) Table QuvCswcfm_marketplace_reviews_response: Total rows added: 0 in 0.00 seconds
+0094.050 (0) Table QuvCswcfm_marketplace_reviews_response: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reviews_response.table.gz - 0.4 KB)
+0094.054 (0) Table QuvCswcfm_marketplace_reviews_response_meta: Total expected rows (approximate): 0
+0094.056 (0) Table QuvCswcfm_marketplace_reviews_response_meta: Total rows added: 0 in 0.00 seconds
+0094.056 (0) Table QuvCswcfm_marketplace_reviews_response_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reviews_response_meta.table.gz - 0.3 KB)
+0094.061 (0) Table QuvCswcfm_marketplace_shipping_zone_locations: Total expected rows (approximate): 0
+0094.063 (0) Table QuvCswcfm_marketplace_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0094.064 (0) Table QuvCswcfm_marketplace_shipping_zone_locations: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_shipping_zone_locations.table.gz - 0.4 KB)
+0094.068 (0) Table QuvCswcfm_marketplace_shipping_zone_methods: Total expected rows (approximate): 0
+0094.070 (0) Table QuvCswcfm_marketplace_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0094.070 (0) Table QuvCswcfm_marketplace_shipping_zone_methods: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_shipping_zone_methods.table.gz - 0.4 KB)
+0094.074 (0) Table QuvCswcfm_marketplace_store_taxonomies: Total expected rows (approximate): 8
+0094.076 (0) Table QuvCswcfm_marketplace_store_taxonomies: Total rows added: 8 in 0.00 seconds
+0094.077 (0) Table QuvCswcfm_marketplace_store_taxonomies: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_store_taxonomies.table.gz - 0.5 KB)
+0094.080 (0) Table QuvCswcfm_marketplace_vendor_ledger: Total expected rows (approximate): 0
+0094.082 (0) Table QuvCswcfm_marketplace_vendor_ledger: Total rows added: 0 in 0.00 seconds
+0094.083 (0) Table QuvCswcfm_marketplace_vendor_ledger: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_vendor_ledger.table.gz - 0.4 KB)
+0094.096 (0) Table QuvCswcfm_marketplace_withdraw_request: Total expected rows (approximate): 0
+0094.098 (0) Table QuvCswcfm_marketplace_withdraw_request: Total rows added: 0 in 0.00 seconds
+0094.099 (0) Table QuvCswcfm_marketplace_withdraw_request: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_withdraw_request.table.gz - 0.5 KB)
+0094.102 (0) Table QuvCswcfm_marketplace_withdraw_request_meta: Total expected rows (approximate): 0
+0094.103 (0) Table QuvCswcfm_marketplace_withdraw_request_meta: Total rows added: 0 in 0.00 seconds
+0094.104 (0) Table QuvCswcfm_marketplace_withdraw_request_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_withdraw_request_meta.table.gz - 0.3 KB)
+0094.107 (0) Table QuvCswcfm_membership_subscription: Total expected rows (approximate): 24
+0094.111 (0) Table QuvCswcfm_membership_subscription: Total rows added: 24 in 0.00 seconds
+0094.113 (0) Table QuvCswcfm_membership_subscription: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_membership_subscription.table.gz - 0.9 KB)
+0094.129 (0) Table QuvCswcfm_messages: Total expected rows (approximate): 81
+0094.133 (0) Table QuvCswcfm_messages: Total rows added: 81 in 0.00 seconds
+0094.135 (0) Table QuvCswcfm_messages: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_messages.table.gz - 2.7 KB)
+0094.139 (0) Table QuvCswcfm_messages_modifier: Total expected rows (approximate): 26
+0094.143 (0) Table QuvCswcfm_messages_modifier: Total rows added: 26 in 0.00 seconds
+0094.144 (0) Table QuvCswcfm_messages_modifier: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_messages_modifier.table.gz - 0.7 KB)
+0094.152 (0) Table QuvCswcfm_messages_stat: Total expected rows (approximate): 0
+0094.160 (0) Table QuvCswcfm_messages_stat: Total rows added: 0 in 0.01 seconds
+0094.162 (0) Table QuvCswcfm_messages_stat: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_messages_stat.table.gz - 0.4 KB)
+0094.171 (0) Table QuvCswcfm_support: Total expected rows (approximate): 0
+0094.175 (0) Table QuvCswcfm_support: Total rows added: 0 in 0.00 seconds
+0094.176 (0) Table QuvCswcfm_support: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support.table.gz - 0.4 KB)
+0094.185 (0) Table QuvCswcfm_support_meta: Total expected rows (approximate): 0
+0094.192 (0) Table QuvCswcfm_support_meta: Total rows added: 0 in 0.01 seconds
+0094.195 (0) Table QuvCswcfm_support_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support_meta.table.gz - 0.3 KB)
+0094.199 (0) Table QuvCswcfm_support_response: Total expected rows (approximate): 0
+0094.202 (0) Table QuvCswcfm_support_response: Total rows added: 0 in 0.00 seconds
+0094.203 (0) Table QuvCswcfm_support_response: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support_response.table.gz - 0.4 KB)
+0094.207 (0) Table QuvCswcfm_support_response_meta: Total expected rows (approximate): 0
+0094.209 (0) Table QuvCswcfm_support_response_meta: Total rows added: 0 in 0.00 seconds
+0094.210 (0) Table QuvCswcfm_support_response_meta: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support_response_meta.table.gz - 0.3 KB)
+0094.213 (0) Table QuvCswoo_ua_auction_log: Total expected rows (approximate): 0
+0094.215 (0) Table QuvCswoo_ua_auction_log: Total rows added: 0 in 0.00 seconds
+0094.215 (0) Table QuvCswoo_ua_auction_log: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoo_ua_auction_log.table.gz - 0.4 KB)
+0094.219 (0) Table QuvCswoocommerce_api_keys: Total expected rows (approximate): 0
+0094.221 (0) Table QuvCswoocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0094.221 (0) Table QuvCswoocommerce_api_keys: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_api_keys.table.gz - 0.4 KB)
+0094.225 (0) Table QuvCswoocommerce_attribute_taxonomies: Total expected rows (approximate): 3
+0094.227 (0) Table QuvCswoocommerce_attribute_taxonomies: Total rows added: 3 in 0.00 seconds
+0094.228 (0) Table QuvCswoocommerce_attribute_taxonomies: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0094.232 (0) Table QuvCswoocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0094.236 (0) Table QuvCswoocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0094.237 (0) Table QuvCswoocommerce_downloadable_product_permissions: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0094.241 (0) Table QuvCswoocommerce_log: Total expected rows (approximate): 0
+0094.244 (0) Table QuvCswoocommerce_log: Total rows added: 0 in 0.00 seconds
+0094.244 (0) Table QuvCswoocommerce_log: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_log.table.gz - 0.4 KB)
+0094.248 (0) Table QuvCswoocommerce_order_items: Total expected rows (approximate): 4
+0094.251 (0) Table QuvCswoocommerce_order_items: Total rows added: 4 in 0.00 seconds
+0094.252 (0) Table QuvCswoocommerce_order_items: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_order_items.table.gz - 0.5 KB)
+0094.255 (0) Table QuvCswoocommerce_payment_tokens: Total expected rows (approximate): 0
+0094.257 (0) Table QuvCswoocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0094.258 (0) Table QuvCswoocommerce_payment_tokens: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_payment_tokens.table.gz - 0.4 KB)
+0094.261 (0) Table QuvCswoocommerce_sessions: Total expected rows (approximate): 7
+0094.269 (0) Table QuvCswoocommerce_sessions: Total rows added: 7 in 0.01 seconds
+0094.270 (0) Table QuvCswoocommerce_sessions: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_sessions.table.gz - 1.5 KB)
+0094.274 (0) Table QuvCswoocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+0094.277 (0) Table QuvCswoocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0094.278 (0) Table QuvCswoocommerce_shipping_zone_locations: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0094.282 (0) Table QuvCswoocommerce_shipping_zone_methods: Total expected rows (approximate): 2
+0094.284 (0) Table QuvCswoocommerce_shipping_zone_methods: Total rows added: 2 in 0.00 seconds
+0094.285 (0) Table QuvCswoocommerce_shipping_zone_methods: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0094.289 (0) Table QuvCswoocommerce_shipping_zones: Total expected rows (approximate): 1
+0094.291 (0) Table QuvCswoocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0094.292 (0) Table QuvCswoocommerce_shipping_zones: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_shipping_zones.table.gz - 0.4 KB)
+0094.295 (0) Table QuvCswoocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0094.297 (0) Table QuvCswoocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0094.298 (0) Table QuvCswoocommerce_tax_rate_locations: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0094.302 (0) Table QuvCswoocommerce_tax_rates: Total expected rows (approximate): 0
+0094.306 (0) Table QuvCswoocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0094.307 (0) Table QuvCswoocommerce_tax_rates: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_tax_rates.table.gz - 0.4 KB)
+0094.313 (0) Table QuvCswpfm_backup: Total expected rows (approximate): 0
+0094.319 (0) Table QuvCswpfm_backup: Total rows added: 0 in 0.00 seconds
+0094.319 (0) Table QuvCswpfm_backup: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswpfm_backup.table.gz - 0.3 KB)
+0094.325 (0) Table QuvCswpgdprc_consents: Total expected rows (approximate): 0
+0094.329 (0) Table QuvCswpgdprc_consents: Total rows added: 0 in 0.00 seconds
+0094.330 (0) Table QuvCswpgdprc_consents: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswpgdprc_consents.table.gz - 0.5 KB)
+0094.334 (0) Table QuvCswpgdprc_log: Total expected rows (approximate): 0
+0094.336 (0) Table QuvCswpgdprc_log: Total rows added: 0 in 0.00 seconds
+0094.337 (0) Table QuvCswpgdprc_log: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswpgdprc_log.table.gz - 0.4 KB)
+0094.340 (0) Table QuvCswplc_chat_msgs: Total expected rows (approximate): 0
+0094.344 (0) Table QuvCswplc_chat_msgs: Total rows added: 0 in 0.00 seconds
+0094.345 (0) Table QuvCswplc_chat_msgs: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_msgs.table.gz - 0.4 KB)
+0094.348 (0) Table QuvCswplc_chat_ratings: Total expected rows (approximate): 0
+0094.349 (0) Table QuvCswplc_chat_ratings: Total rows added: 0 in 0.00 seconds
+0094.350 (0) Table QuvCswplc_chat_ratings: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_ratings.table.gz - 0.3 KB)
+0094.354 (0) Table QuvCswplc_chat_sessions: Total expected rows (approximate): 0
+0094.356 (0) Table QuvCswplc_chat_sessions: Total rows added: 0 in 0.00 seconds
+0094.357 (0) Table QuvCswplc_chat_sessions: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_sessions.table.gz - 0.4 KB)
+0094.360 (0) Table QuvCswplc_chat_triggers: Total expected rows (approximate): 0
+0094.361 (0) Table QuvCswplc_chat_triggers: Total rows added: 0 in 0.00 seconds
+0094.362 (0) Table QuvCswplc_chat_triggers: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_triggers.table.gz - 0.3 KB)
+0094.365 (0) Table QuvCswplc_custom_fields: Total expected rows (approximate): 0
+0094.367 (0) Table QuvCswplc_custom_fields: Total rows added: 0 in 0.00 seconds
+0094.368 (0) Table QuvCswplc_custom_fields: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_custom_fields.table.gz - 0.3 KB)
+0094.372 (0) Table QuvCswplc_departments: Total expected rows (approximate): 0
+0094.373 (0) Table QuvCswplc_departments: Total rows added: 0 in 0.00 seconds
+0094.374 (0) Table QuvCswplc_departments: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_departments.table.gz - 0.3 KB)
+0094.378 (0) Table QuvCswplc_offline_messages: Total expected rows (approximate): 0
+0094.379 (0) Table QuvCswplc_offline_messages: Total rows added: 0 in 0.00 seconds
+0094.380 (0) Table QuvCswplc_offline_messages: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_offline_messages.table.gz - 0.3 KB)
+0094.383 (0) Table QuvCswplc_roi_conversions: Total expected rows (approximate): 0
+0094.387 (0) Table QuvCswplc_roi_conversions: Total rows added: 0 in 0.00 seconds
+0094.387 (0) Table QuvCswplc_roi_conversions: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_roi_conversions.table.gz - 0.3 KB)
+0094.391 (0) Table QuvCswplc_roi_goals: Total expected rows (approximate): 0
+0094.393 (0) Table QuvCswplc_roi_goals: Total rows added: 0 in 0.00 seconds
+0094.394 (0) Table QuvCswplc_roi_goals: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_roi_goals.table.gz - 0.3 KB)
+0094.397 (0) Table QuvCswplc_webhooks: Total expected rows (approximate): 0
+0094.400 (0) Table QuvCswplc_webhooks: Total rows added: 0 in 0.00 seconds
+0094.401 (0) Table QuvCswplc_webhooks: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_webhooks.table.gz - 0.3 KB)
+0094.404 (0) Table QuvCsyith_wcwl: Total expected rows (approximate): 6
+0094.406 (0) Table QuvCsyith_wcwl: Total rows added: 6 in 0.00 seconds
+0094.407 (0) Table QuvCsyith_wcwl: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyith_wcwl.table.gz - 0.6 KB)
+0094.410 (0) Table QuvCsyith_wcwl_lists: Total expected rows (approximate): 18
+0094.413 (0) Table QuvCsyith_wcwl_lists: Total rows added: 18 in 0.00 seconds
+0094.414 (0) Table QuvCsyith_wcwl_lists: finishing file (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyith_wcwl_lists.table.gz - 0.9 KB)
+0094.417 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsoptions.table.gz (1/100): adding to final database dump
+0094.476 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsusers.table.gz (2/100): adding to final database dump
+0094.477 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsusermeta.table.gz (3/100): adding to final database dump
+0094.483 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCscommentmeta.table.gz (4/100): adding to final database dump
+0094.485 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCscomments.table.gz (5/100): adding to final database dump
+0094.502 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCslinks.table.gz (6/100): adding to final database dump
+0094.503 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCspostmeta.table.gz (7/100): adding to final database dump
+0094.531 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsposts.table.gz (8/100): adding to final database dump
+0094.567 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsterm_relationships.table.gz (9/100): adding to final database dump
+0094.570 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsterm_taxonomy.table.gz (10/100): adding to final database dump
+0094.571 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCstermmeta.table.gz (11/100): adding to final database dump
+0094.574 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsterms.table.gz (12/100): adding to final database dump
+0094.575 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_category_lookup.table.gz (13/100): adding to final database dump
+0094.577 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_product_meta_lookup.table.gz (14/100): adding to final database dump
+0094.581 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_tax_rate_classes.table.gz (15/100): adding to final database dump
+0094.582 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_order_itemmeta.table.gz (16/100): adding to final database dump
+0094.583 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_payment_tokenmeta.table.gz (17/100): adding to final database dump
+0094.584 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyoast_seo_links.table.gz (18/100): adding to final database dump
+0094.585 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyoast_seo_meta.table.gz (19/100): adding to final database dump
+0094.589 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsbw_pricing_items.table.gz (20/100): adding to final database dump
+0094.590 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsfailed_jobs.table.gz (21/100): adding to final database dump
+0094.592 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsmailchimp_carts.table.gz (22/100): adding to final database dump
+0094.594 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsmailchimp_jobs.table.gz (23/100): adding to final database dump
+0094.596 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCspbs.table.gz (24/100): adding to final database dump
+0094.596 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsqueue.table.gz (25/100): adding to final database dump
+0094.599 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_css.table.gz (26/100): adding to final database dump
+0094.602 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_layer_animations.table.gz (27/100): adding to final database dump
+0094.603 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_navigations.table.gz (28/100): adding to final database dump
+0094.603 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_sliders.table.gz (29/100): adding to final database dump
+0094.607 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_slides.table.gz (30/100): adding to final database dump
+0094.637 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsrevslider_static_slides.table.gz (31/100): adding to final database dump
+0094.638 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_admin_note_actions.table.gz (32/100): adding to final database dump
+0094.639 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_admin_notes.table.gz (33/100): adding to final database dump
+0094.639 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_customer_lookup.table.gz (34/100): adding to final database dump
+0094.640 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_download_log.table.gz (35/100): adding to final database dump
+0094.641 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_coupon_lookup.table.gz (36/100): adding to final database dump
+0094.642 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_product_lookup.table.gz (37/100): adding to final database dump
+0094.642 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_stats.table.gz (38/100): adding to final database dump
+0094.643 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_order_tax_lookup.table.gz (39/100): adding to final database dump
+0094.644 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswc_webhooks.table.gz (40/100): adding to final database dump
+0094.645 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_daily_analysis.table.gz (41/100): adding to final database dump
+0094.659 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_detailed_analysis.table.gz (42/100): adding to final database dump
+0094.711 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries.table.gz (43/100): adding to final database dump
+0094.712 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries_meta.table.gz (44/100): adding to final database dump
+0094.713 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries_response.table.gz (45/100): adding to final database dump
+0094.714 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_enquiries_response_meta.table.gz (46/100): adding to final database dump
+0094.716 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_following_followers.table.gz (47/100): adding to final database dump
+0094.718 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_orders.table.gz (48/100): adding to final database dump
+0094.720 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_orders_meta.table.gz (49/100): adding to final database dump
+0094.722 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_product_multivendor.table.gz (50/100): adding to final database dump
+0094.724 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_refund_request.table.gz (51/100): adding to final database dump
+0094.726 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_refund_request_meta.table.gz (52/100): adding to final database dump
+0094.726 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reverse_withdrawal.table.gz (53/100): adding to final database dump
+0094.727 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reverse_withdrawal_meta.table.gz (54/100): adding to final database dump
+0094.728 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_review_rating_meta.table.gz (55/100): adding to final database dump
+0094.728 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reviews.table.gz (56/100): adding to final database dump
+0094.729 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reviews_response.table.gz (57/100): adding to final database dump
+0094.729 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_reviews_response_meta.table.gz (58/100): adding to final database dump
+0094.730 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_shipping_zone_locations.table.gz (59/100): adding to final database dump
+0094.730 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_shipping_zone_methods.table.gz (60/100): adding to final database dump
+0094.731 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_store_taxonomies.table.gz (61/100): adding to final database dump
+0094.731 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_vendor_ledger.table.gz (62/100): adding to final database dump
+0094.732 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_withdraw_request.table.gz (63/100): adding to final database dump
+0094.733 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_marketplace_withdraw_request_meta.table.gz (64/100): adding to final database dump
+0094.733 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_membership_subscription.table.gz (65/100): adding to final database dump
+0094.734 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_messages.table.gz (66/100): adding to final database dump
+0094.736 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_messages_modifier.table.gz (67/100): adding to final database dump
+0094.736 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_messages_stat.table.gz (68/100): adding to final database dump
+0094.737 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support.table.gz (69/100): adding to final database dump
+0094.738 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support_meta.table.gz (70/100): adding to final database dump
+0094.738 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support_response.table.gz (71/100): adding to final database dump
+0094.739 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswcfm_support_response_meta.table.gz (72/100): adding to final database dump
+0094.740 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoo_ua_auction_log.table.gz (73/100): adding to final database dump
+0094.740 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_api_keys.table.gz (74/100): adding to final database dump
+0094.741 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_attribute_taxonomies.table.gz (75/100): adding to final database dump
+0094.742 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_downloadable_product_permissions.table.gz (76/100): adding to final database dump
+0094.742 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_log.table.gz (77/100): adding to final database dump
+0094.743 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_order_items.table.gz (78/100): adding to final database dump
+0094.744 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_payment_tokens.table.gz (79/100): adding to final database dump
+0094.745 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_sessions.table.gz (80/100): adding to final database dump
+0094.746 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_shipping_zone_locations.table.gz (81/100): adding to final database dump
+0094.746 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_shipping_zone_methods.table.gz (82/100): adding to final database dump
+0094.747 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_shipping_zones.table.gz (83/100): adding to final database dump
+0094.748 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_tax_rate_locations.table.gz (84/100): adding to final database dump
+0094.749 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswoocommerce_tax_rates.table.gz (85/100): adding to final database dump
+0094.750 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswpfm_backup.table.gz (86/100): adding to final database dump
+0094.751 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswpgdprc_consents.table.gz (87/100): adding to final database dump
+0094.752 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswpgdprc_log.table.gz (88/100): adding to final database dump
+0094.753 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_msgs.table.gz (89/100): adding to final database dump
+0094.754 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_ratings.table.gz (90/100): adding to final database dump
+0094.755 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_sessions.table.gz (91/100): adding to final database dump
+0094.756 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_chat_triggers.table.gz (92/100): adding to final database dump
+0094.756 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_custom_fields.table.gz (93/100): adding to final database dump
+0094.757 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_departments.table.gz (94/100): adding to final database dump
+0094.758 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_offline_messages.table.gz (95/100): adding to final database dump
+0094.759 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_roi_conversions.table.gz (96/100): adding to final database dump
+0094.760 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_roi_goals.table.gz (97/100): adding to final database dump
+0094.760 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCswplc_webhooks.table.gz (98/100): adding to final database dump
+0094.761 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyith_wcwl.table.gz (99/100): adding to final database dump
+0094.763 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db-table-QuvCsyith_wcwl_lists.table.gz (100/100): adding to final database dump
+0094.766 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db.gz: finished writing out complete database file (816 KB)
+0094.789 (0) Total database tables backed up: 100 (backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db.gz, size: 864367, sha1: 3caab2e63fa43ad832944596df9070070ec1d4a7, sha256: ec4cbc889a9a889aebf130915e30070d3c879431f137e6d4e8cf0dda0a250b67)
+0094.794 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0094.794 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0094.795 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0094.795 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0094.796 (0) backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0094.796 (0) Saving backup history. Total backup size: 219 MB
+0094.798 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0094.800 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0094.801 (0) No remote despatch: user chose no remote backup service
+0094.802 (0) Recording as successfully uploaded: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-plugins.zip
+0094.803 (0) Recording as successfully uploaded: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-themes.zip
+0094.805 (0) Recording as successfully uploaded: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-uploads.zip
+0094.806 (0) Recording as successfully uploaded: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-others.zip
+0094.808 (0) Recording as successfully uploaded: backup_2019-12-27-2020_VINDRESSING_3b91f43cf9e6-db.gz
+0094.811 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0094.812 (0) Number of backup sets in history: 1; groups (db): 1
+0094.813 (0) Examining (for databases) backup set with group_id=0, nonce=3b91f43cf9e6, datestamp=1577478020 (Dec 27 2019 20:20:20)
+0094.813 (0) This backup set is the backup set just made, so will not be deleted.
+0094.813 (0) Number of backup sets in history: 1; groups (files): 1
+0094.814 (0) Examining (for files) backup set with nonce=3b91f43cf9e6, datestamp=1577478020 (Dec 27 2019 20:20:20)
+0094.814 (0) This backup set is the backup set just made, so will not be deleted.
+0094.814 (0) This backup set is the backup set just made, so will not be deleted.
+0094.815 (0) This backup set is the backup set just made, so will not be deleted.
+0094.815 (0) This backup set is the backup set just made, so will not be deleted.
+0094.815 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0094.815 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0094.817 (0) Resume backup (3b91f43cf9e6, 0): finish run
+0094.820 (0) Decremented the semaphore (fd) by 1
+0094.821 (0) Semaphore (fd) unlocked
+0094.822 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0094.825 (0) The backup apparently succeeded and is now complete
+0094.826 (0) No email will/can be sent - the user has not configured an email address.
+0094.827 (0) La sauvegarde a réussie. Elle est maintenant terminée.

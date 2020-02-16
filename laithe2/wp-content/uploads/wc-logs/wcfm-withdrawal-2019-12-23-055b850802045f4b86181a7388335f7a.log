@@ -1,0 +1,56 @@
+2019-12-23T01:43:00+00:00 DEBUG PERIODIC WITHDRAWAL SCHEDULER START :: décembre 23, 2019 1:43  
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 24 Store :: eciladress
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 24 Store :: eciladress
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 24 Store :: eciladress
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 8 Store :: Home
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 8 Store :: Home
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 8 Store :: Home
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 18 Store :: Audreydrd
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 18 Store :: Audreydrd
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 18 Store :: Audreydrd
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 13 Store :: HB-DESIGNER
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 13 Store :: HB-DESIGNER
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 13 Store :: HB-DESIGNER
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 4 Store :: test
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 4 Store :: test
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 4 Store :: test
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 15 Store :: Claudie42
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 15 Store :: Claudie42
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 15 Store :: Claudie42
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 11 Store :: Dursunayse
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 11 Store :: Dursunayse
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 11 Store :: Dursunayse
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 9 Store :: Estelle 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 9 Store :: Estelle 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 9 Store :: Estelle 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 6 Store :: Claudie
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 6 Store :: Claudie
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 6 Store :: Claudie
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 17 Store :: La_ptitisa
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 17 Store :: La_ptitisa
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 17 Store :: La_ptitisa
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 14 Store :: jeromeb_48@hotmail.com
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 14 Store :: jeromeb_48@hotmail.com
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 14 Store :: jeromeb_48@hotmail.com
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 16 Store :: Messa
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 16 Store :: Messa
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 16 Store :: Messa
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 19 Store :: Maeboutique
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 19 Store :: Maeboutique
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 19 Store :: Maeboutique
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 20 Store :: Medpau
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 20 Store :: Medpau
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 20 Store :: Medpau
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 10 Store :: Moda’style 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 10 Store :: Moda’style 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 10 Store :: Moda’style 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 26 Store :: theo maxant
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal no pending commission. Vendor :: 26 Store :: theo maxant
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 26 Store :: theo maxant
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 22 Store :: wassj
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 22 Store :: wassj
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 22 Store :: wassj
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal start. Vendor :: 7 Store :: Cassyhdy 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal payment method missing. Vendor :: 7 Store :: Cassyhdy 
+2019-12-23T01:43:00+00:00 DEBUG Periodic withdrawal end. Vendor :: 7 Store :: Cassyhdy 
+2019-12-23T01:43:00+00:00 DEBUG PERIODIC WITHDRAWAL SCHEDULER END :: décembre 23, 2019 1:43  

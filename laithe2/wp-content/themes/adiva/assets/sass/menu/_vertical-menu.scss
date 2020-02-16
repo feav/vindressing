@@ -1,0 +1,99 @@
+.has-menu-toggle-left {
+    #menu-toggle-left {
+        @include transform(translateX(0));
+    }
+}
+
+#menu-toggle-left {
+    background-color: black;
+    width: 340px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 50px;
+    @include transition(all 400ms);
+    @include transform(translateX(-340px));
+
+    .vertical-menu-wrapper {
+        margin-top: 170px;
+    }
+
+    .header-extra {
+        .header-block {
+            display: inline-block;
+            padding-right: 20px;
+            margin-right: 20px;
+            position: relative;
+
+            &:after {
+                content: '';
+                width: 1px;
+                height: 17px;
+                background-color: #202020;
+                position: absolute;
+                right: 0;
+                top: 8px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+                padding-right: 0;
+
+                &:after {
+                    content: none;
+                }
+            }
+        }
+
+        .dropdown-toggle {
+            font-size: 14px;
+            line-height: 35px;
+            color: #828282;
+            display: block;
+
+            i {
+                margin-left: 10px;
+                font-size: 11px;
+            }
+        }
+
+        .dropdown-menu {
+            text-align: center;
+            margin-top: 1px;
+            background-color: #F0F0F0;
+            width: 100%;
+            padding: 0 10px;
+            left: 50%;
+            z-index: 9;
+            display: block;
+            opacity: 0;
+            visibility: hidden;
+            @include transition(all 300ms);
+            @include transform(translateX(-50%));
+            box-shadow: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 3px 0 5px;
+            margin: 0;
+
+            li {
+                margin-bottom: 0;
+                a {
+                    font-size: 13px;
+                    line-height: 35px;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .box-hover:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+}

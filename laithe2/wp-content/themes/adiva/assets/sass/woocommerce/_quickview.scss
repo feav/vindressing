@@ -1,0 +1,42 @@
+.product-quickview {
+    background: $white;
+    max-width: 990px;
+    margin: auto;
+
+    .wc-single-product {
+        padding-bottom: 0;
+    }
+
+    .summary {
+        padding: 30px 30px 0 0;
+    }
+
+    .column-right {
+        overflow-x: auto;
+        background: white;
+    }
+
+}
+
+.loader {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.65);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.loader-inner {
+    background: url('assets/images/icons/three-dots.svg') no-repeat 0 0;
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

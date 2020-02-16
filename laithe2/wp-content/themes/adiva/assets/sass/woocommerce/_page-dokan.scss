@@ -1,0 +1,247 @@
+// ------------------------------------------
+// DOKAN DASHBOARD
+// ------------------------------------------
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active::after {
+    right: 0;
+	left: auto;
+    border-width: 7px 7px 7px 0;
+    margin-top: -7px;
+}
+
+.dokan-dashboard-wrap {
+	.dokan-dash-sidebar {
+		background-color: transparent;
+	}
+
+	input,
+	select.dokan-form-control {
+		border: 1px solid #ededed;
+		padding: 0 15px;
+		background-image: none;
+		height: 35px;
+	}
+
+	ins {
+		background-color: inherit;
+	}
+}
+
+.dokan-form-group {
+	margin-bottom: 15px !important;
+}
+
+.seller-rating .star-rating {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.dokan-seller-listing .dokan-seller-search-form {
+	width: 447px;
+
+	input#search {
+		border-color: rgba(129, 129, 129, 0.20) !important;
+		border-radius: 0 !important;
+		width: 100%;
+	}
+}
+
+.pagination-wrap ul.pagination > li > a {
+	color: $color-text-main;
+}
+
+.pagination-wrap ul.pagination > li > span,
+.pagination-wrap ul.pagination > li > a,
+.pagination-wrap ul.pagination > li > span.page-numbers {
+	border-radius: 0;
+}
+
+.dokan-product-listing .dokan-product-listing-area table.product-listing-table td {
+	vertical-align: middle;
+}
+
+.dokan-single-store .dokan-store-tabs ul li {
+	margin-bottom: 0;
+}
+
+// ------------------------------------------
+// DOKAN NOTICE
+// ------------------------------------------
+.dokan-message, .dokan-info, .dokan-error {
+	color: white;
+	border-radius: 0;
+	border: none;
+}
+
+input[type="submit"].dokan-btn,
+a.dokan-btn,
+.dokan-btn {
+	border: none;
+    border-radius: 0;
+    background-color: $primary-color;
+    color: white;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+
+	&:hover, &:focus {
+        background-color: $primary-color;
+        opacity: 0.8;
+        color: white;
+    }
+}
+
+.dokan-store-info {
+	margin-bottom: 0;
+
+	> li {
+		margin-bottom: 0;
+	}
+}
+
+.dokan-category-menu {
+    border: none;
+
+	h3.widget-title {
+		background: none;
+		padding: 0 0 7px 0;
+		color: $heading-color;
+		border: none;
+	}
+}
+
+.dokan-store-sidebar {
+	#dokan-store-location {
+	    width: 100%;
+	    height: 200px;
+	}
+}
+
+.dokan-single-store {
+
+	.profile-frame-no-banner {
+
+		.store-name {
+			margin-bottom: 10px;
+		}
+
+		.profile-info-summery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		.profile-info-head {
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+
+		.profile-info {
+			flex-basis: 600px;
+		}
+
+		.profile-layout-layout3 {
+
+			.profile-img {
+
+				img {
+					width: auto !important;
+					height: auto !important;
+					max-width: 150px !important;
+				}
+			}
+		}
+
+		.dokan-store-info {
+
+			> li {
+
+				&.dokan-store-rating {
+					float: left !important;
+				}
+
+				&:before {
+					display: none;
+				}
+			}
+
+			&:after {
+				content: "";
+				display: block;
+				clear: both;
+				width: 100%;
+			}
+		}
+
+		.store-social-wrapper {
+			margin-top: 10px;
+		}
+	}
+
+	.profile-info-box {
+
+		&.profile-layout-layout1,
+		&.profile-layout-layout2 {
+
+			.profile-info-summery-wrapper {
+				height: auto !important;
+			}
+
+			.dokan-store-info {
+
+				li {
+
+					&:last-child {
+						padding-bottom: 0 !important;
+					}
+				}
+			}
+		}
+
+		&.profile-layout-layout1 {
+
+			.profile-info-summery {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				height: auto !important;
+				position: relative !important;
+				top: auto !important;
+				margin-top: -55px;
+				margin-bottom: 20px;
+
+				> div {
+					float: none !important;
+				}
+			}
+
+			.profile-info-head {
+				margin-left: 5px;
+			}
+
+			.profile-info {
+				flex-basis: 450px;
+			}
+		}
+
+
+		&.profile-layout-layout2 {
+
+			.profile-img  {
+				margin-top: -75px;
+			}
+
+			.profile-info {
+				margin-bottom: 20px;
+			}
+
+			.profile-info-head,
+			.profile-info,
+			.store-name,
+			.dokan-store-info,
+			.store-social-wrapper {
+				position: static !important;
+			}
+		}
+	}
+}

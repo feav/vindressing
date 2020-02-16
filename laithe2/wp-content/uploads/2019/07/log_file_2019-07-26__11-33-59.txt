@@ -1,0 +1,23 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Customizer file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://vindressing.fr
+Data file = not defined!
+Widget file = /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/uploads/2019/07/widget_data-2.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Error: Widget import data could not be read. Please try a different file.

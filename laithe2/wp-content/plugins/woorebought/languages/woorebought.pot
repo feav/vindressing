@@ -1,0 +1,387 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Recently Bought\n"
+"POT-Creation-Date: 2018-01-31 16:34+0700\n"
+"PO-Revision-Date: 2018-01-31 16:34+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woorebought.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin.php:30
+msgid "Woo Recently Bought"
+msgstr ""
+
+#: admin/params.php:37
+msgid "Your settings have been saved."
+msgstr ""
+
+#: admin/params.php:86
+msgid "WooCommerce Recently Bought Settings"
+msgstr ""
+
+#: admin/params.php:91
+msgid "General"
+msgstr ""
+
+#: admin/params.php:92
+msgid "Products"
+msgstr ""
+
+#: admin/params.php:93
+msgid "Popup Content"
+msgstr ""
+
+#: admin/params.php:94
+msgid "Time"
+msgstr ""
+
+#: admin/params.php:95
+msgid "Custom Style"
+msgstr ""
+
+#: admin/params.php:96 admin/params.php:707
+msgid "Assign Pages"
+msgstr ""
+
+#: admin/params.php:101
+msgid "Enable"
+msgstr ""
+
+#: admin/params.php:110
+msgid "Popup Show Animate"
+msgstr ""
+
+#: admin/params.php:232
+msgid "Popup will show with this animation effect."
+msgstr ""
+
+#: admin/params.php:236
+msgid "Popup Hide Animate"
+msgstr ""
+
+#: admin/params.php:357
+msgid "Popup will hide with this animation effect."
+msgstr ""
+
+#: admin/params.php:361
+msgid "Popup Position"
+msgstr ""
+
+#: admin/params.php:372
+msgid "Image Position"
+msgstr ""
+
+#: admin/params.php:381
+msgid "External link"
+msgstr ""
+
+#: admin/params.php:387
+msgid "Working with  External/Affiliate product. Product link is product URL."
+msgstr ""
+
+#: admin/params.php:392
+msgid "Popup Close Icon"
+msgstr ""
+
+#: admin/params.php:398
+msgid "Show popup close icon."
+msgstr ""
+
+#: admin/params.php:402
+msgid "Use Cache"
+msgstr ""
+
+#: admin/params.php:408
+msgid "Use cache help get products faster. Recommend enable it."
+msgstr ""
+
+#: admin/params.php:412
+msgid "Ajax Enable"
+msgstr ""
+
+#: admin/params.php:418
+msgid ""
+"Load popup use ajax (it not working with Product from Orders). Recommend "
+"disable it,   Your site will be load faster."
+msgstr ""
+
+#: admin/params.php:425
+msgid "Get Products From"
+msgstr ""
+
+#: admin/params.php:428
+msgid "Featured Products"
+msgstr ""
+
+#: admin/params.php:429
+msgid "Latest Products"
+msgstr ""
+
+#: admin/params.php:430
+msgid "Orders"
+msgstr ""
+
+#: admin/params.php:431 admin/params.php:515
+msgid "Select Products"
+msgstr ""
+
+#: admin/params.php:432 admin/params.php:439
+msgid "Select Categories"
+msgstr ""
+
+#: admin/params.php:434
+msgid ""
+"You can arrange product order or special product which you want to up-sell."
+msgstr ""
+
+#: admin/params.php:446
+msgid "Please select categories"
+msgstr ""
+
+#: admin/params.php:469
+msgid "Input category title to see suggestions."
+msgstr ""
+
+#: admin/params.php:475
+msgid "Order Time"
+msgstr ""
+
+#: admin/params.php:483
+msgid "Days"
+msgstr ""
+
+#: admin/params.php:484
+msgid "Hours"
+msgstr ""
+
+#: admin/params.php:485
+msgid "Minutes"
+msgstr ""
+
+#: admin/params.php:489
+msgid "Products in this recently time will get from order.  "
+msgstr ""
+
+#: admin/params.php:494
+msgid "Order Status"
+msgstr ""
+
+#: admin/params.php:522
+msgid "Please select products"
+msgstr ""
+
+#: admin/params.php:551
+msgid "Input product title to see suggestions."
+msgstr ""
+
+#: admin/params.php:556
+msgid "Frame Time"
+msgstr ""
+
+#: admin/params.php:563 front/popup.php:750
+msgid "minutes"
+msgstr ""
+
+#: admin/params.php:566
+msgid "Time will auto get random in this frame."
+msgstr ""
+
+#: admin/params.php:573
+msgid "Recently Bought Content"
+msgstr ""
+
+#: admin/params.php:578
+msgid "Customer's address"
+msgstr ""
+
+#: admin/params.php:579
+msgid "Product title"
+msgstr ""
+
+#: admin/params.php:580
+msgid "Product title + link"
+msgstr ""
+
+#: admin/params.php:581
+msgid "Time after purchase"
+msgstr ""
+
+#: admin/params.php:587
+msgid "Address List"
+msgstr ""
+
+#: admin/params.php:591
+msgid ""
+"If this field is set, Popup content will get random address from this list"
+msgstr ""
+
+#: admin/params.php:597
+msgid "Loop"
+msgstr ""
+
+#: admin/params.php:607
+msgid "Init Delay"
+msgstr ""
+
+#: admin/params.php:610
+msgid "When site loaded after this time popup will appear"
+msgstr ""
+
+#: admin/params.php:614
+msgid "Display Time"
+msgstr ""
+
+#: admin/params.php:617
+msgid "Popup will show in during this Time"
+msgstr ""
+
+#: admin/params.php:622
+msgid "Next Time"
+msgstr ""
+
+#: admin/params.php:625
+msgid "The Time next popup will appear"
+msgstr ""
+
+#: admin/params.php:630
+msgid "Total"
+msgstr ""
+
+#: admin/params.php:633
+msgid "Number of popups will appear"
+msgstr ""
+
+#: admin/params.php:640
+msgid "Popup Background"
+msgstr ""
+
+#: admin/params.php:646
+msgid "Popup Border Radius"
+msgstr ""
+
+#: admin/params.php:652
+msgid "Text Color"
+msgstr ""
+
+#: admin/params.php:658
+msgid "Link Color"
+msgstr ""
+
+#: admin/params.php:664
+msgid "Time Color"
+msgstr ""
+
+#: admin/params.php:670
+msgid "Text Size"
+msgstr ""
+
+#: admin/params.php:676
+msgid "Link Size"
+msgstr ""
+
+#: admin/params.php:682
+msgid "Time Size"
+msgstr ""
+
+#: admin/params.php:688
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/params.php:692
+msgid "You can add custom css for popup style"
+msgstr ""
+
+#: admin/params.php:698
+msgid "Show in All Page"
+msgstr ""
+
+#: admin/params.php:714
+msgid "Please select pages"
+msgstr ""
+
+#: admin/params.php:739
+msgid "The popup will show in pages selected !"
+msgstr ""
+
+#: admin/params.php:743
+msgid "Exclude Pages"
+msgstr ""
+
+#: admin/params.php:750
+msgid "Please select exclude pages"
+msgstr ""
+
+#: admin/params.php:775
+msgid "The popup will not show in pages selected !"
+msgstr ""
+
+#: admin/params.php:781
+msgid "Save"
+msgstr ""
+
+#: front/popup.php:303
+msgid "About"
+msgstr ""
+
+#: front/popup.php:303
+msgid "ago"
+msgstr ""
+
+#: front/popup.php:736
+msgid "days"
+msgstr ""
+
+#: front/popup.php:738
+msgid "day"
+msgstr ""
+
+#: front/popup.php:743
+msgid "hours"
+msgstr ""
+
+#: front/popup.php:745
+msgid "hour"
+msgstr ""
+
+#: front/popup.php:752
+msgid "minute"
+msgstr ""
+
+#: front/popup.php:754
+msgid "seconds"
+msgstr ""
+
+#: front/popup.php:756
+msgid "a few seconds"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Recently Bought"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://joommasters.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show Recently Bought Product for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Joommasters"
+msgstr ""

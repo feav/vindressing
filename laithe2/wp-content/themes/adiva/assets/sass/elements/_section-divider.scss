@@ -1,0 +1,52 @@
+/** ------------------------------------------------------------------------------------------------
+* SECTION-DIVIDER
+* ------------------------------------------------------------------------------------------------ */
+
+.adiva-row-divider {
+	margin-left: -15px;
+	margin-right: -15px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+
+	svg {
+		display: block;
+	}
+}
+
+.divider-style-waves-small,
+.divider-style-waves-wide,
+.divider-style-triangle {
+	svg {
+		height: 3vw;
+	}
+}
+
+.divider-style-clouds {
+	svg {
+		height: 6vw;
+	}
+}
+
+.divider-overlap {
+	position: relative;
+
+	svg {
+		position: absolute;
+		left: 0;
+		right:0;
+	}
+
+	&.divider-position-top {
+
+		svg {
+			top: 0;
+		}
+	}
+
+	&.divider-position-bottom {
+
+		svg {
+			bottom: 0;
+		}
+	}
+}

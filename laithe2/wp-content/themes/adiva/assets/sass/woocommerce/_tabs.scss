@@ -1,0 +1,124 @@
+.product-detail-information {
+    margin-bottom: 85px;
+    max-width: 100% !important;
+}
+
+.woocommerce-Tabs-panel {
+    > h2 {
+        display: none;
+    }
+
+    .woocommerce-Reviews-title {
+        display: none;
+    }
+}
+
+// Tabs layout
+.tabs-layout-tabs {
+    .wc-tabs {
+        padding: 0;
+        list-style: none;
+        margin: 0px;
+        text-align: center;
+        
+        > li {
+            display: inline-block;
+			position: relative;
+			padding: 0 25px;
+			margin-bottom:0px;
+			border:2px solid #ebebeb;
+			border-bottom: none;
+			margin:0px 10px;
+			&.active {
+				border-top: 2px solid;
+                border-color: $primary-color;
+			}
+			&:before {
+				content: "";
+				display: block;
+				height: 2px;
+				background: #fff;
+				position: absolute;
+				bottom: -2px;
+				left: 0;
+				right: 0;
+				z-index:2;
+			}
+            > a {
+                  display: inline-block;
+				  padding: 16px 0;
+				  font-size: 16px;
+				  font-weight: 600;
+				  text-transform: uppercase;
+				  color: #777777;
+            }
+        }
+    }
+
+    .wc-accordion-content,
+    .tab-content {
+        position: relative;
+		border:2px solid #ebebeb;
+		padding:30px;
+
+    }
+
+    .yikes-custom-woo-tab-title,
+    .woocommerce-Reviews-title {
+        display: none;
+    }
+
+    .woocommerce-Reviews,
+    #tab-additional_information .shop_attributes {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+// Accordion tabs
+.tabs-layout-accordion {
+    .adiva-tab-wrapper {
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+
+.adiva-accordion-title {
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 0;
+
+    &:after {
+        content: "\e604";
+        font-family: 'simple-line-icons';
+        margin-left: 8px;
+        font-size: 11px;
+        position: relative;
+        top: -1px;
+    }
+}
+
+#tab-additional_information .shop_attributes {
+
+    th, td {
+        padding: 15px 0;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        text-align: right;
+    }
+
+    tr:last-child td,
+    tr:last-child th {
+        border-bottom: none;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}

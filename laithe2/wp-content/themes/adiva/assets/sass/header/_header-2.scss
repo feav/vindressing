@@ -1,0 +1,64 @@
+.dokan-store {
+    .header-wrapper.header-2 {
+        box-shadow: none;
+    }
+}
+
+.header-2 {
+    margin-bottom: 20px;
+
+    .main-navigation {
+        .header-block {
+            border-bottom: 2px solid #E6E6E6;
+        }
+    }
+
+    .search-form {
+        display: block;
+        width: 290px;
+
+        .search-field {
+            height: 35px;
+            line-height: 35px;
+            border: none;
+            border-bottom: 1px solid #E6E6E6;
+            padding: 0;
+            color: #000000;
+        }
+
+        .search-submit {
+            height: 35px;
+            line-height: 35px;
+            padding: 0;
+
+            .sl {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .primary-menu {
+        &.menu-left {
+            > li {
+                &:first-child {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        &.menu-right {
+            > li {
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+
+    &.color-scheme-light {
+        .search-form .search-field {
+            color: white;
+        }
+    }
+
+}

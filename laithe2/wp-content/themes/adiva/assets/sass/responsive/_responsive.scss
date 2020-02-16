@@ -1,0 +1,42 @@
+@media screen and (min-width: 1480px) {
+    .wrapper-wide {
+        .container, .container-fluid {
+            width: 94%;
+        }
+    }
+
+    .wrapper-boxed {
+        .site {
+            max-width: 1480px;
+            margin: 0 auto;
+            box-shadow: 0 1px 5px rgba(190,190,190,.26);
+        }
+
+        .vc_row {
+            max-width: 100% !important;
+            left: auto !important;
+            right: auto !important;
+        }
+
+        .vc_row-fluid {
+            margin: 0 !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1170px;
+    }
+
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@import 'medium';
+@import 'tablet';
+@import 'mobile';

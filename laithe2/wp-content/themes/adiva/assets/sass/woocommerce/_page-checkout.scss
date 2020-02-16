@@ -1,0 +1,242 @@
+.checkout-order-review {
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 30px;
+    margin-bottom: 40px;
+
+    table {
+        background: white;
+    }
+}
+
+.wc_payment_methods {
+    .payment_box {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 15px 15px;
+        background-color: white;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+
+        &:before {
+            content: '\f0d8';
+            font-family: 'FontAweSome';
+            position: absolute;
+            top: -4px;
+            line-height: 0;
+            left: 25px;
+            color: white;
+            font-size: 32px;
+        }
+    }
+}
+
+.woocommerce-invalid .select2-container--default .select2-selection--single,
+.woocommerce-invalid input:not(:focus) {
+    border-color: #ca1919;
+}
+
+.payment_methods .payment_method_paypal a {
+    margin-left: 15px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.wc-terms-and-conditions {
+    padding-top: 20px;
+    border-top: 1px solid rgba(129, 129, 129, 0.2);
+    margin-bottom: 40px !important;
+
+    .checkbox input[type="checkbox"] {
+        position: inherit;
+        margin-left: 0;
+    }
+
+    label {
+        font-weight: 400;
+        margin: 0;
+        line-height: 1.2;
+    }
+}
+
+.woocommerce-checkout {
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 30px;
+    }
+
+    ul.wc_payment_methods {
+        padding: 0;
+        list-style: none;
+        margin-bottom: 20px;
+
+        label {
+            font-weight: 400;
+        }
+    }
+
+    .checkout_coupon {
+        margin-bottom: 40px;
+
+        .form-row {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.woocommerce-additional-fields {
+    margin-top: 40px;
+}
+
+// ul.order_details {
+//     background-color: #f8f8f8;
+//     list-style: none;
+//     position: relative;
+//     margin: 50px 0;
+//
+//     li {
+//         border-bottom: 1px dotted #e3e3e3;
+//         padding: 10px 15px;
+//         font-size: 12px;
+//         text-transform: uppercase;
+//
+//         &:last-child {
+//             border-bottom: none;
+//         }
+//
+//         strong {
+//             display: block;
+//             font-size: 14px;
+//             text-transform: none;
+//         }
+//     }
+// }
+
+.select2-container--default .select2-selection--single {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #E6E6E6;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 45px;
+
+    .select2-selection__rendered {
+        display: inline;
+        padding-left: 0;
+        padding-right: 0;
+        color: #777;
+        line-height: 1.4;
+    }
+
+    .select2-selection__arrow {
+        top: 9px;
+        right: 10px;
+    }
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.required {
+    color: #E01020;
+}
+
+body.woocommerce-checkout .woocommerce > .woocommerce-info {
+    background-color: transparent;
+    padding: 0;
+    color: #2d2a2a;
+
+    a {
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
+
+.checkout_coupon {
+    padding: 30px 25px 10px 25px;
+    text-align: center;
+    border: 2px dashed #ddd;
+    max-width: 450px;
+
+    .form-row-first,
+    .form-row-last {
+        float: none;
+        width: auto;
+        display: inline-block;
+    }
+}
+
+.woocommerce-order {
+    text-align: center;
+}
+
+.wc-bacs-bank-details-heading,
+.woocommerce-order-details__title,
+.woocommerce-customer-details > h2 {
+    font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+.woocommerce-order-details {
+	margin-top: 50px;
+
+	.responsive-table {
+		margin-bottom: 50px;
+	}
+
+	address,
+	.woocommerce-column__title {
+		text-align: left;
+	}
+}
+
+.woocommerce-thankyou-order-details,
+.wc-bacs-bank-details {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+    li {
+    	flex:1 0 auto;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    margin-bottom: 20px;
+	    border-right: 1px solid rgba(129,129,129,.2);
+	    text-align: center;
+
+    	&:last-child {
+    		border-right: none;
+    	}
+    }
+
+	strong {
+		display: block;
+		margin-top: 10px;
+		color: $heading-color;
+	}
+
+   	.amount {
+   		color: $heading-color;
+   	}
+}
+
+.woocommerce-bacs-bank-details {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+ul#shipping_method {
+    list-style: none;
+
+    li {
+        display: flex;
+    }
+}

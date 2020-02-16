@@ -1,0 +1,47 @@
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+    font-family: $primary-font;
+    color: $color-text-main;
+    background: $white;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.75;
+	letter-spacing: 0.4px;
+	font-weight: 300;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+b, strong {
+	font-weight: 600;
+}
+
+@import 'list';
+@import 'link';
+@import 'heading';
+@import 'table';
+@import 'form';
+@import 'button';
+@import 'clearing';
+@import 'helper';
+@import 'global';
+@import 'layout';

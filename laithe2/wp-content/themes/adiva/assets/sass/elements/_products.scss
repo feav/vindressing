@@ -1,0 +1,163 @@
+.product-filter {
+    margin-bottom: 35px;
+
+    a {
+        display: inline-block;
+        line-height: 25px;
+        color: #000000;
+        position: relative;
+        font-size: 17px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        border-radius: 0;
+        font-weight: 400;
+
+        &.active {
+            color: $primary-color;
+
+            &:after {
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+.jmsproduct-tab {
+    .nav-tabs {
+        text-align: center;
+        border: none;
+        margin-bottom: 44px;
+
+        > li {
+            position: relative;
+            display: inline-block;
+            float: none;
+            padding: 0 25px;
+
+            &:before {
+                position: absolute;
+                top: 0px;
+                left: -6px;
+                content: '|';
+                color: rgba(0, 0, 0, 0.25);
+            }
+
+            &:first-child {
+                &:before {
+                    content: none;
+                }
+            }
+
+            > a {
+                color: black;
+                font-weight: 400;
+                position: relative;
+                border: none;
+                font-size: 17px;
+                text-transform: uppercase;
+                border-radius: 0;
+                padding: 0 0 3px;
+                margin: 0;
+
+                &:hover, &:focus {
+                    border: none;
+                    background-color: transparent;
+                }
+
+                &:after {
+                    content: '';
+                    width: 0;
+                    height: 1px;
+                    background-color: $primary-color;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    @include transition(all 300ms);
+                }
+            }
+
+            &.active {
+                > a {
+                    color: $primary-color;
+
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+
+    &.design-tab-2 {
+        .nav-tabs {
+            margin-bottom: 25px;
+
+            > li {
+                padding: 0 22px 15px;
+
+                &:before {
+                    content: none;
+                }
+
+                > a {
+                    color: rgba(0, 0, 0, 0.4);
+                    font-size: 19px;
+                    letter-spacing: 0;
+                    padding-bottom: 5px;
+                    font-weight: 400;
+
+                    &:after {
+                        content: '';
+                        width: 0;
+                        height: 2px;
+                        margin: 0 auto;
+                        background-color: #d7d7d7;
+                        position: absolute;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        @include transition(all 300ms);
+                    }
+                }
+
+                &.active {
+                    > a {
+                        color: $primary-color;
+
+                        &:after {
+                            width: 40px;
+                            background-color: $primary-color;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .tab-content {
+        position: relative;
+    }
+
+    .tab-pane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        display: block;
+        @include transition(all .2s ease-in-out);
+
+        &.active {
+            visibility: inherit;
+            position: inherit;
+            opacity: 1;
+            @include transition(all ease-out 0.3s 0.3s);
+        }
+    }
+
+}

@@ -1,0 +1,67 @@
+.adiva-pagination {
+    text-align: center;
+
+    .page-numbers {
+        padding: 0;
+        margin-bottom: 0;
+
+        li {
+            display: inline-block;
+            margin-right: 4px;
+            margin-bottom: 0;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            span, a {
+                display: inline-block;
+                text-align: center;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-weight: 600;
+                font-weight: inherit;
+                padding: 0;
+
+                &:hover {
+                    background-color: $primary-color;
+                    color: white;
+                }
+            }
+
+            .current {
+                background-color: $primary-color;
+                color: white;
+            }
+        }
+    }
+
+
+}
+
+.adiva-ajax-loadmore {
+    a {
+        color: #000000;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 2px solid #e1e1e1;
+        padding: 6px 22px;
+
+        &:hover, &:focus {
+            background-color: $primary-color;
+            border-color: $primary-color;
+            color: white;
+        }
+
+        i {
+            margin-right: 7px;
+        }
+
+        &.disabled {
+            pointer-events: none;
+            opacity: 0.3;
+        }
+    }
+}

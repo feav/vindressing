@@ -1,0 +1,28 @@
+// -------------------------------------
+// PRODUCT BOX STYLE 3
+// -------------------------------------
+.product-box-style-3 {
+    overflow: inherit;
+
+    .product-info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        background-color: white;
+        box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.09);
+        padding: 20px;
+        z-index: 99;
+        @include transform(translateY(-20px));
+        @include transition(all 300ms);
+    }
+
+    &:hover {
+        .product-info {
+            opacity: 1;
+            visibility: visible;
+            @include transform(translateY(0));
+        }
+    }
+}

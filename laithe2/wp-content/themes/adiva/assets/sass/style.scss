@@ -1,0 +1,188 @@
+/*
+Theme Name: Adiva
+Theme URI: http://wp.jmsthemes.com/adiva
+Author: JoomMasters
+Author URI: http://www.joommasters.com
+Description: <strong>Adiva</strong> is simple and clean looking WordPress Theme suitable for fashion stores websites or any kind of shopping website with better usability. Flexible settings, fast loading, premium modules, fast support and much more. All these amazing features are blended together in <strong>Adiva</strong> – your powerful, stylish and attractive responsive WordPress Theme. Make your business with our theme. We are sure that it will satisfy all your needs.
+Version: 1.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: adiva
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments
+*/
+
+/* -------------------------------------------
+[Table of contents]
+
+1. BASE
+    1.1 LIST
+    1.2 LINK
+    1.3 HEADING
+    1.4 TABLE
+    1.5 FORM
+    1.6 BUTTON
+    1.7 CLEARING
+    1.8 HELPER
+    1.9 GLOBAL
+    1.10 LAYOUT
+
+2. WORDPRESS DEFAULT CLASS
+
+3. HEADER
+    3.1 HEADER 1
+    3.2 HEADER 2
+    3.3 HEADER 3
+    3.4 HEADER 4
+    3.5 HEADER 5
+    3.6 HEADER 6
+    3.7 HEADER 7
+    3.8 HEADER 8
+
+4. MENU
+    4.1 PRIMARY MENU
+    4.2 MOBILE MENU
+    4.3 VERTICAL MENU
+    4.4 FOOTER MENU
+
+5. FOOTER
+
+6. HOME
+
+7. PAGE
+    7.1 MAINTENANCE
+	7.2 404
+    7.3 CONTACT
+    7.4 SEARCH
+    7.5 PAGE HEADING
+
+8. POST
+	8.1 SINGLE POST
+	8.2 POST PAGINATION
+    8.3 POST COMMENT
+    8.4 POST LAYOUT
+    8.5 POST NAVIGATION
+
+9. WIDGET
+
+10. WOOCOMMERCE
+    10.1 TOOLTIP
+	10.2 MESSAGE
+    10.3 RATING
+    10.4 SHOP ACTION
+    10.5 SHOP FILTER
+    10.6 QUICK VIEW
+    10.7 SHIPPING POPUP
+    10.8 ONSALE
+    10.9 PRODUCT BOX
+    10.10 PRODUCT CATEGORY
+    10.11 SHOP LAYOUT
+    10.12 SHOP PAGINATION
+    10.13 SINGLE PRODUCT
+    10.14 WOOCOMMERCE TABS
+    10.15 OTHER PRODUCTS
+    10.16 PAGE WISHLIST
+    10.17 MY ACCOUNT
+    10.18 CART
+    10.19 CHECKOUT
+    10.20 CART STYLE
+
+11. ELEMENTS
+    11.1 BANNER
+    11.2 PROMO BAR
+    11.3 PORTFOLIO
+    11.4 INSTAGRAM
+    11.5 SERVICE
+    11.6 BRAND
+    11.7 PRODUCTS
+    11.8 TESTIMONIAL
+    11.9 TEAM MEMBER
+    11.10 SOCIAL ICONS
+    11.11 MEGAMENU WIDGET
+    11.12 GOOGLE MAPS
+    11.13 INFORMATION BOX
+    11.14 GALLERY
+    11.15 VIDEO
+
+12. LOADING
+
+13. ANIMATION
+
+14. RESPONSIVE
+    14.1 MEDIUM
+    14.2 TABLET
+    14.3 MOBILE
+
+------------------------------------------- */
+
+@import 'variables/variables';
+@import 'mixins/mixins';
+
+/* ---------------------------------------------
+   1. BASE
+   ------------------------------------------- */
+@import 'base/base';
+
+/* ---------------------------------------------
+   2. WORDPRESS DEFAULT CLASS
+   ------------------------------------------- */
+@import 'wordpress/default';
+
+/* -------------------------------------------
+   3. HEADER
+   ------------------------------------------- */
+@import 'header/header';
+
+/* ---------------------------------------------
+   4. MENU
+   ------------------------------------------ */
+@import 'menu/menu';
+
+/* ---------------------------------------------
+   5. FOOTER
+   ------------------------------------------ */
+@import 'footer/footer';
+
+/* ---------------------------------------------
+   6. HOME
+   ------------------------------------------ */
+@import 'home/home';
+
+/* ---------------------------------------------
+   7. PAGE
+   ------------------------------------------ */
+@import 'page/page';
+
+/* ---------------------------------------------
+   8. POST
+   ------------------------------------------ */
+@import 'post/post';
+
+/* ---------------------------------------------
+   9. WIDGETS
+   ------------------------------------------ */
+@import 'widget/widget';
+
+/* ---------------------------------------------
+   10. WOOCOMMERCE
+   ------------------------------------------ */
+@import 'woocommerce/woocommerce';
+
+/* ---------------------------------------------
+   11. ELEMENTS
+   ------------------------------------------ */
+@import 'elements/elements';
+
+/* ---------------------------------------------
+   12. LOADING
+   ------------------------------------------ */
+@import 'loading/loading';
+
+/* ---------------------------------------------
+   13. ANIMATION
+   ------------------------------------------ */
+@import 'animation/animation';
+
+/* ---------------------------------------------
+   14. RESPONSIVE
+   ------------------------------------------ */
+@import 'responsive/responsive';

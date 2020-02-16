@@ -1,0 +1,87 @@
+/** ------------------------------------------------------------------------------------------------
+* WISHLIST
+* ------------------------------------------------------------------------------------------------ */
+
+.yith-wcwl-add-to-wishlist {
+	position: relative;
+	margin-top: 0;
+    padding: 0;
+
+	.ajax-loading {
+		display: none!important;
+		height: 0!important;
+		width: 0!important;
+	}
+
+	.feedback {
+        display: none;
+    }
+
+	.clear,
+	+ .clear {
+		display: none;
+	}
+}
+
+
+.woocommerce table.wishlist_table {
+    font-size: 100%;
+}
+
+.woocommerce table.wishlist_table {
+    font-size: 100%;
+
+    td, th {
+        text-align: center;
+    }
+
+	.product-name a {
+		font-weight: 400;
+	}
+
+	a.button {
+		background-color: $primary-color;
+		height: 40px;
+		line-height: 40px;
+		font-weight: 500;
+		padding: 0 20px;
+		color: white;
+
+		&:hover, &:focus {
+			color: white !important;
+		}
+
+		&.loading {
+			&:before {
+				border-color: white;
+			}
+
+			font-size: 0;
+		}
+
+		&:before {
+			content: none;
+		}
+	}
+}
+
+.wishlist_table tr td.product-thumbnail a {
+    display: inherit;
+    max-width: 100%;
+
+    img {
+        max-width: 85px;
+        margin: 0 auto;
+    }
+}
+
+
+.wishlist-title {
+    h2 {
+        margin-top: 0;
+        padding: 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}

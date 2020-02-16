@@ -1,0 +1,141 @@
+.header-5 {
+    width: 340px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+
+    .wrap-header {
+        display: inherit;
+        margin-left: 0;
+        margin-right: 0;
+
+        .header-position {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        &.bottom {
+            display: flex;
+        }
+    }
+
+    .header-action i {
+        font-size: 20px;
+    }
+
+    .main-navigation {
+        padding-top: 105px;
+    }
+
+    .vertical-menu {
+        text-align: left;
+
+        > li {
+            border-color: #ececec;
+
+            > a {
+                color: #000000;
+            }
+
+        }
+    }
+
+    .bottom-menu-wrapper {
+        border-bottom: 1px solid #E0E0E0;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        margin-top: 150px;
+    }
+
+    .bottom-menu {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 12px;
+
+        li {
+            margin-bottom: 5px;
+
+            a {
+                font-size: 13px;
+                color: rgba(0, 0, 0, 0.85);
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+
+    .social-list-icons {
+        li {
+            &:first-child {
+                a {
+                    padding-left: 0;
+                }
+            }
+
+            a {
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+
+    }
+
+    #header-account .dropdown-menu {
+        left: -30px;
+        right: auto;
+
+        &:after {
+            left: 30px;
+            right: auto;
+        }
+    }
+
+    #header-cart .widget_shopping_cart_content {
+        left: -30px;
+        right: auto;
+
+        &:after {
+            left: 32px;
+            right: auto;
+        }
+    }
+
+    #header-search {
+        .dropdown-menu {
+            right: auto;
+            left: -25px;
+
+            &:after {
+                right: auto;
+                left: 25px;
+            }
+        }
+    }
+
+    &.color-scheme-light {
+        .vertical-menu > li > a {
+            color: white;
+        }
+
+        .bottom-menu {
+            li {
+                a {
+                    color: white;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

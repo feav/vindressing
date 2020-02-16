@@ -1,0 +1,116 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Jms Currency\n"
+"POT-Creation-Date: 2017-07-13 09:19+0700\n"
+"PO-Revision-Date: 2017-07-13 09:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: jmscurrency.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: jmscurrency.php:61
+msgid "Currencies Manage"
+msgstr ""
+
+#: jmscurrency.php:62
+msgid "Jms Currencies"
+msgstr ""
+
+#: views/backend.php:2
+msgid "All Currencies"
+msgstr ""
+
+#: views/backend.php:8 views/backend.php:47
+msgid "Currency"
+msgstr ""
+
+#: views/backend.php:9 views/backend.php:57
+msgid "Currency Position"
+msgstr ""
+
+#: views/backend.php:10 views/backend.php:68
+msgid "Thousand Separator"
+msgstr ""
+
+#: views/backend.php:11 views/backend.php:72
+msgid "Decimal Separator"
+msgstr ""
+
+#: views/backend.php:12 views/backend.php:76
+msgid "Number of Decimals"
+msgstr ""
+
+#: views/backend.php:13
+#, php-format
+msgid "Exchange Rate(In %s)"
+msgstr ""
+
+#: views/backend.php:14
+msgid "Action"
+msgstr ""
+
+#: views/backend.php:19
+msgid "No currency found ..."
+msgstr ""
+
+#: views/backend.php:26
+msgid "Update Rate"
+msgstr ""
+
+#: views/backend.php:27 views/backend.php:35
+msgid "New Currency"
+msgstr ""
+
+#: views/backend.php:60
+msgid "Left ($99.99)"
+msgstr ""
+
+#: views/backend.php:61
+msgid "Right (99.99$)"
+msgstr ""
+
+#: views/backend.php:62
+msgid "Left with space ($ 99.99)"
+msgstr ""
+
+#: views/backend.php:63
+msgid "Right with space (99.99 $)"
+msgstr ""
+
+#: views/backend.php:80
+msgid "Exchange Rate"
+msgstr ""
+
+#: views/backend.php:84
+msgid "Save"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Jms Currency"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.joommasters.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Jms currency."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Joommasters"
+msgstr ""

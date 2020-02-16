@@ -1,0 +1,248 @@
+/* ==========================================================================
+   1.8 HELPER CLASS
+   ========================================================================== */
+.width-0 {
+    width: 0;
+}
+
+.color {
+    color: $primary-color;
+}
+
+.color_64 {
+    color: #646464;
+}
+
+.light {
+    color: white;
+}
+
+.dark {
+    color: black;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.flex {
+    @include flex();
+}
+
+.middle-xs {
+    @include align-items(center);
+}
+
+.center-xs {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-xs {
+    -webkit-justify-content: left;
+    -ms-flex-pack: left;
+    -webkit-box-pack: left;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.right-xs {
+    -webkit-justify-content: right;
+    -ms-flex-pack: right;
+    -webkit-box-pack: right;
+    justify-content: right;
+    text-align: right;
+}
+
+
+.between-xs {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+    .start-sm {
+		-webkit-justify-content: flex-start;
+		-ms-flex-pack: start;
+		-webkit-box-pack: start;
+		justify-content: flex-start;
+		text-align: start;
+	}
+	.center-sm {
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		-webkit-box-pack: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.end-sm {
+		-webkit-justify-content: flex-end;
+		-ms-flex-pack: end;
+		-webkit-box-pack: end;
+		justify-content: flex-end;
+		text-align: end;
+	}
+}
+
+.pd_0 {
+    padding: 0;
+}
+
+.pl_0 {
+    padding-left: 0;
+}
+
+.pr_0 {
+    padding-right: 0;
+}
+
+.mg_0 {
+    margin: 0;
+}
+
+.ml_0 {
+    margin-left: 0;
+}
+
+.mr_0 {
+    margin-right: 0;
+}
+
+@for $i from 1 through 100 {
+	$space: 1px * $i;
+
+    .pt_#{$i} {
+       padding-top: $space;
+    }
+
+    .pb_#{$i} {
+       padding-bottom: $space;
+    }
+
+    .pl_#{$i} {
+       padding-left: $space;
+    }
+
+    .pr_#{$i} {
+       padding-right: $space;
+    }
+
+    .mt_#{$i} {
+       margin-top: $space;
+    }
+
+    .mb_#{$i} {
+       margin-bottom: $space;
+    }
+
+    .ml_#{$i} {
+       margin-left: $space;
+    }
+
+    .mr_#{$i} {
+		margin-right: $space;
+    }
+
+}
+
+//am
+@for $i from 1 through -60 {
+	$space_1: 1px * $i;
+
+    .ml_#{$i} {
+       margin-left: $space_1;
+    }
+
+    .mr_#{$i} {
+		margin-right: $space_1;
+    }
+
+}
+
+@for $m from 1 through 100 {
+    $font_size: 1px * $m;
+    .fs_#{$m} {
+       font-size: $font_size;
+    }
+}
+
+.db  {
+    display: block;
+}
+
+.dn {
+    display: none;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.oi {
+    overflow: inherit;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}
+
+.pf {
+    position: fixed;
+}
+
+.pa-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	@include transform(translate3D(-50%, -50%, 0));
+}

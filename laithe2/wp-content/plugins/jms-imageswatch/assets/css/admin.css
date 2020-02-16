@@ -1,0 +1,11 @@
+.imageswatch-variation {
+	border-top:1px solid #ededed;
+	padding:10px;
+}
+.imageswatch-variation label {
+    margin: 0!important;
+    padding:20px 10px 10px 10px!important;
+}
+.imageswatch-variation .button {
+	margin-top:15px;
+}

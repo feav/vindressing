@@ -1,0 +1,109 @@
+.page-links {
+	margin-top: 10px;
+
+	.page-links-title {
+		vertical-align: middle;
+		margin-right: 15px;
+	}
+
+    > a,
+	> span:not(.page-links-title) {
+		display: inline-block;
+		min-width: 32px;
+	    height: 34px;
+	    line-height: 34px;
+		text-align: center;
+		vertical-align: middle;
+		margin-right: 2px;
+	    box-sizing: content-box;
+        @include transition(all 0.2s ease);
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+    > span:not(.page-links-title) {
+		color: white;
+		background-color: $primary-color;
+	}
+}
+
+.adiva-entry-content {
+	.page-links {
+		> a,
+		> span:not(.page-links-title) {
+			color: white;
+			background-color: $primary-color;
+		}
+	}
+}
+
+
+.post-navigation {
+    border-top: 1px solid rgba(199,199,199,.25);
+    border-bottom: 1px solid rgba(199,199,199,.25);
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+    .label-text {
+        display: block;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        color: #bbb;
+        line-height: 1;
+    }
+
+    a {
+        &:before {
+            font-family: 'simple-line-icons';
+            font-size: 30px;
+            position: absolute;
+            top: 0;
+            line-height: 1.4;
+        }
+    }
+
+    .post-prev-post {
+		flex: 0 1 50%;
+		max-width: 50%;
+
+        .post-next-prev-content {
+            a:before {
+                left: 0;
+                content: "\e07a";
+            }
+        }
+    }
+
+    .post-next-post {
+		flex: 0 1 50%;
+		max-width: 50%;
+
+        .post-next-prev-content {
+            a:before {
+                right: 0;
+                content: "\e079";
+            }
+        }
+    }
+
+    .back-to-archive {
+        a {
+            display: block;
+            width: 19px;
+            height: 19px;
+            background-image: url('assets/images/icons/view-2.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            @include transition(all 300ms ease);
+
+            &:hover {
+                background-image: url('assets/images/icons/view-2-hover.png');
+            }
+        }
+    }
+
+}

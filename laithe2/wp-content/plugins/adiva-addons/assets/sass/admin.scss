@@ -1,0 +1,43 @@
+.vc_element-icon.jms-icon {
+	background-image: url('../images/logo.png');
+	background-position: center center;
+}
+
+/*======================================================
+=                 Menu custom fields                   =
+======================================================*/
+
+.nmi-item-custom-fields {
+    display: none;
+    overflow: hidden;
+    clear: both;
+    padding: 0;
+    h4 {
+        margin: 20px 0 10px;
+    }
+}
+.nmi-div {
+    overflow: hidden;
+    clear: both;
+    color: #a6a6a6;
+    a {
+        text-decoration: none;
+        display: inline-block;
+        &:hover {
+            text-decoration: underline;
+        }
+        &.link-with-image {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+}
+.nmi-upload-link {
+    margin: 10px 0;
+}
+
+.nmi-current-image img {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #efefef;
+}

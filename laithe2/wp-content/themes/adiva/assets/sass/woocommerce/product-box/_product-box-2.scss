@@ -1,0 +1,49 @@
+// --------------------
+// PRODUCT BOX STYLE 2
+// --------------------
+.product-box-style-2 {
+    .product-cat {
+        color: white;
+        a {
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .price {
+        color: white;
+
+        del {
+            color: white;
+        }
+
+        ins {
+            color: white;
+        }
+    }
+
+    .product-info {
+        width: 100%;
+        opacity: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        visibility: hidden;
+        @include transition(all 300ms);
+        margin-top: 25px;
+
+        > a {
+            color: white;
+        }
+    }
+
+    &:hover {
+        .product-info {
+            opacity: 1;
+            visibility: visible;
+            margin-top: 0;
+        }
+    }
+}

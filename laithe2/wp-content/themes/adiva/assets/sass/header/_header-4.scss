@@ -1,0 +1,83 @@
+.dokan-store {
+    .header-wrapper.header-4 {
+        box-shadow: none;
+    }
+}
+
+.header-4 {
+    .wrap-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .search-form {
+        .search-field {
+            height: 50px;
+            padding-left: 20px;
+        }
+
+        .search-submit {
+            height: 50px;
+
+            i {
+                line-height: 50px;
+            }
+        }
+    }
+
+    .main-navigation {
+        background-color: $primary_color;
+    }
+
+    .adiva-menu.primary-menu > li {
+        &:first-child {
+            padding-left: 0;
+        }
+
+        > a {
+            color: white;
+            line-height: 60px;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        &.current-menu-ancestor,
+        &.current-menu-item {
+            &:hover {
+                color: white !important;
+            }
+        }
+    }
+
+    .primary-menu.menu-left > li.megamenu-shop .dropdown-menu {
+        left: -70px;
+        @include transform(none);
+    }
+
+    .header-hotline {
+        padding-top: 10px;
+        line-height: 1.4;
+        justify-content: flex-end;
+        color: white;
+
+        .sl {
+            position: relative;
+            top: -2px;
+            font-size: 28px;
+        }
+
+        p {
+            font-weight: 400;
+            text-align: left;
+            padding-left: 10px;
+            margin: 0;
+
+            span {
+                font-size: 13px;
+                display: block;
+            }
+        }
+    }
+}

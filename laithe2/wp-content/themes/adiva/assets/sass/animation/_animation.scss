@@ -1,0 +1,270 @@
+@keyframes load-spin {
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@-o-keyframes load-spin {
+    100% {
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+
+@-ms-keyframes load-spin {
+    100% {
+        -ms-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+
+@-webkit-keyframes load-spin {
+    100% {
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+
+@-moz-keyframes load-spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+
+// FULL FADE TO TOP ANIMATION
+
+@keyframes long-to-top {
+
+    from {
+        transform:none;
+    }
+
+    to {
+        transform:translate3d(0, -100%, 0);
+    }
+}
+
+@-webkit-keyframes long-to-top {
+
+    from {
+       -webkit-transform:none;
+    }
+
+    to {
+        -webkit-transform:translate3d(0, -100%, 0);
+    }
+}
+
+
+.spinner {
+    -webkit-animation: spinner 2s infinite linear;
+    animation: spinner 2s infinite linear;
+}
+
+@keyframes clockwise {
+    to {
+        transform: rotate(360deg) translatez(0);
+    }
+}
+
+@keyframes counter-clockwise {
+    to {
+        transform: rotate(-360deg) translatez(0);
+    }
+}
+
+@-webkit-keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@-webkit-keyframes dotFade { 0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes dotFade { 0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0; } }
+
+// Style 1
+@-webkit-keyframes loadingstyle1 {
+	0%, 100% {
+		@include transform(scale(0));;
+	}
+	50% {
+		@include transform(scale(1.0));
+	}
+}
+
+@-moz-keyframes loadingstyle1 {
+	0%, 100% {
+		@include transform(scale(0));;
+	}
+	50% {
+		@include transform(scale(1.0));
+	}
+}
+
+
+@keyframes loadingstyle1 {
+	0%, 100% {
+		@include transform(scale(0));;
+	}
+	50% {
+		@include transform(scale(1.0));
+	}
+}
+
+// Style 2
+@-webkit-keyframes loadingstyle2 {
+	0% {
+		@include transform(perspective(120px) rotateX(0) rotateY(0));
+	}
+	50% {
+		@include transform(perspective(120px) rotateX(-180.1deg) rotateY(0));
+	}
+	100% {
+		@include transform(perspective(120px) rotateX(-180deg) rotateY(-179.9deg));
+	}
+}
+
+@-moz-keyframes loadingstyle2 {
+	0% {
+		@include transform(perspective(120px) rotateX(0) rotateY(0));
+	}
+	50% {
+		@include transform(perspective(120px) rotateX(-180.1deg) rotateY(0));
+	}
+	100% {
+		@include transform(perspective(120px) rotateX(-180deg) rotateY(-179.9deg));
+	}
+}
+
+@keyframes loadingstyle2 {
+	0% {
+		@include transform(perspective(120px) rotateX(0) rotateY(0));
+	}
+	50% {
+		@include transform(perspective(120px) rotateX(-180.1deg) rotateY(0));
+	}
+	100% {
+		@include transform(perspective(120px) rotateX(-180deg) rotateY(-179.9deg));
+	}
+}
+
+// Style 4
+@-webkit-keyframes loadingstyle4 {
+    0%, 100%, 80% {
+        @include transform(scale(0));
+    }
+    40% {
+        @include transform(scale(1));
+    }
+}
+
+@-moz-keyframes loadingstyle4 {
+    0%, 100%, 80% {
+        @include transform(scale(0));
+    }
+    40% {
+        @include transform(scale(1));
+    }
+}
+
+@keyframes loadingstyle4 {
+    0%, 100%, 80% {
+        @include transform(scale(0));
+    }
+    40% {
+        @include transform(scale(1));
+    }
+}
+
+//Style 5
+@-webkit-keyframes loadingstyle5 {
+	0% {
+		@include transform(scale(0));
+	}
+	100% {
+		@include transform(scale(1));
+		opacity: 0;
+	}
+}
+
+
+@-moz-keyframes loadingstyle5 {
+	0% {
+		@include transform(scale(0));
+	}
+	100% {
+		@include transform(scale(1));
+		opacity:0
+	}
+}
+
+
+@keyframes loadingstyle5 {
+	0% {
+		@include transform(scale(0));
+	}
+	100% {
+		@include transform(scale(1));
+		opacity:0
+	}
+}
+// Style 6
+@-webkit-keyframes loadingstyle6 {
+	100% {
+		@include transform(rotate(360deg));
+	}
+}
+
+@-moz-keyframes loadingstyle6 {
+	100% {
+		@include transform(rotate(360deg));
+	}
+}
+
+@keyframes loadingstyle6 {
+	100% {
+		@include transform(rotate(360deg));
+	}
+}
+
+//
+@keyframes bounceIconUp {
+    0%,20%,53%,80%,to{
+        animation-timing-function: cubic-bezier(.215,.61,.355,1);
+        transform:translateZ(0)
+    }
+    40%,43%{
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transform:translate3d(0,-20px,0)
+    }
+    70%{
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transform:translate3d(0,-15px,0)
+    }
+    90%{
+        transform:translate3d(0,-5px,0)
+    }
+}

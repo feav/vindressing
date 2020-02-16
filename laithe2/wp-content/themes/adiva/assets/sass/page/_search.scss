@@ -1,0 +1,37 @@
+.not-found {
+
+	.entry-header {
+		text-align: center;
+
+		&:before {
+            content: "\e090";
+            font-family: 'simple-line-icons';
+			display: inline-block;
+			font-size: 100px;
+			color: $primary-color;
+			line-height: 1;
+            margin-bottom: 25px;
+        }
+
+       	.entry-title {
+       		text-transform: capitalize;
+       		font-size: 48px;
+       		font-weight: 900;
+       		margin-bottom: 15px;
+       	}
+	}
+
+	.entry-content {
+       	text-align: center;
+
+       	> p {
+       		font-size: 16px;
+       		margin-bottom: 30px;
+       	}
+    }
+
+	.search-form {
+		max-width: 350px;
+        margin: 0 auto;
+	}
+}

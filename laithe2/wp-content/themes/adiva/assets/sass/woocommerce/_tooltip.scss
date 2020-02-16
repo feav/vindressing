@@ -1,0 +1,28 @@
+.wc-tooltip {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: -33px;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    line-height: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 3px;
+    color: $white;
+    white-space: nowrap;
+    @include transition(0.3s all);
+    font-size: 14px;
+
+    &:after {
+        content: '';
+        border-left: 5px solid rgba(0, 0, 0, 0.8);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        position: absolute;
+        bottom: -5px;
+    }
+}

@@ -1,0 +1,157 @@
+.page-heading {
+    background-color: #f9f9f9;
+    background-position: center center;
+    background-size: cover;
+    //background-image: url('assets/images/page-heading-bg.jpg');
+
+    // Title size
+    &.title-size-default {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    &.title-size-small {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        h1 {
+            font-size: 27px;
+        }
+    }
+
+    &.title-size-medium {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    &.title-size-large {
+        padding-top: 110px;
+        padding-bottom: 110px;
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    //Title align
+    &.title-align-left {
+        text-align: left;
+    }
+
+    &.title-align-centered {
+        text-align: center;
+    }
+
+    &.title-align-right {
+        text-align: right;
+    }
+
+    h1 {
+        margin: 0;
+        line-height: 1.4;
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+
+    &.color-scheme-dark {
+        color: #333;
+
+        a {
+            color: #333;
+        }
+
+        h1 {
+            color: #333;
+        }
+    }
+
+    &.color-scheme-light {
+        color: white;
+
+        a {
+            color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+    }
+
+}
+
+
+.breadcrumb,
+.woocommerce-breadcrumb {
+    font-size: 14px;
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.adiva-checkout-steps {
+
+	ul {
+		list-style: none;
+        margin: 0;
+        padding: 0;
+
+		li {
+			display: inline-block;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			line-height: 1.2;
+
+            a, span {
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+			a {
+				display: inline-block;
+				color: inherit;
+				opacity: 0.7;
+
+				&:hover,
+				&:focus {
+					color: inherit;
+					opacity: 1;
+				}
+			}
+
+			> span {
+				opacity: 0.7;
+			}
+
+			&:after {
+                content: '\f178';
+                font-family: 'FontAweSome';
+                opacity: 0.7;
+                font-weight: bold;
+                font-size: 85%;
+                margin: 0 15px;
+                position: relative;
+                top: -2px;
+			}
+
+			&:last-child {
+
+				&:after {
+					content: none;
+				}
+			}
+		}
+
+		.step-active {
+			a,
+			> span {
+				opacity: 1;
+			}
+		}
+	}
+}

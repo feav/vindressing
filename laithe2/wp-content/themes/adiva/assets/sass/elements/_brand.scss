@@ -1,0 +1,27 @@
+.jmsbrand-box {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    .owl-carousel .owl-item {
+        img {
+            display: inline-block;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+
+    .item {
+        img {
+            @include transition(all 400ms);
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+
+        &:hover {
+            img {
+                -webkit-filter: none;
+                filter: none;
+            }
+        }
+    }
+}

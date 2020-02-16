@@ -1,0 +1,66 @@
+// Contact Page
+//----------------------------------
+
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+
+// Page Not Found
+//----------------------------------
+.page-404{
+   background: #fafafa;
+   padding: 50px 0;
+   @media(min-width:1024px){
+      padding:230px 0 250px; 
+   }
+   .page-title{
+	    font-size: 60px;
+	    font-weight: 700;
+	    line-height: 1.1;
+   }
+   .sub-title{
+   	color: $link-color;
+	    font-size: 18px;
+   }
+   .btn i{
+      @include rtl-margin-right(5px);
+   }
+   .search-form{
+      margin: 10px auto 50px;
+   }
+   .inner-content{
+      padding:80px 0; 
+      background: url('#{$image-theme-path}404.png') center center no-repeat;
+   }
+}
+.blog-masonry{
+	.post-container{
+		margin-bottom: $theme-margin;
+		background-color: #fafafa;
+	}
+	.information-post {
+		padding: 15px;
+	}
+}
+.blog-list-item{
+	border-bottom:1px solid $border-color;
+}

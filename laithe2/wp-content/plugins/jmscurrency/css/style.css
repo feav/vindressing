@@ -1,0 +1,51 @@
+.currencies-list table,
+.currencies-list table td {
+    border-collapse: collapse;
+}
+.currencies-list table thead {
+    background-color: #1abc9c;
+    color: #fff;
+}
+.currencies-list table thead th {
+    font-weight: 400;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.currencies-list table tbody tr td {
+   text-align: center;
+   padding: 15px;
+   background: #fff;
+   border: 1px solid rgba(0,0,0,.1);
+}
+.currencies-list table tbody tr td a {
+    text-decoration: none;
+}
+.currencies-list table tfoot {
+    background-color: #f8f8f8;
+}
+.currencies-list table tfoot td {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+#dialog ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+#dialog .frm-label {
+    float: left;
+    min-width: 160px;
+    line-height: 35px;
+}
+#dialog .frm-input {
+    float: left;
+}
+
+#dialog .frm-input select,
+#dialog .frm-input input {
+    height: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+}

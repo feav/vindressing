@@ -1,0 +1,10 @@
+.header-1 {
+    .main-navigation {
+        flex: 1 1 auto;
+    }
+
+    .primary-menu.menu-left > li.megamenu-shop .dropdown-menu {
+        left: -70px;
+        @include transform(none);
+    }
+}

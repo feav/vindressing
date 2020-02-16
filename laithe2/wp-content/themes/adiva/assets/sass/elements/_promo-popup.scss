@@ -1,0 +1,27 @@
+/** ------------------------------------------
+* PROMO POPUP
+* ------------------------------------------ */
+.adiva-promo-popup {
+	display: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    padding: 1px;
+
+	.mfp-wrap & {
+		display: block;
+	}
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.popup-style-1 {
+    .vc_column-inner {
+        padding: 0;
+    }
+}

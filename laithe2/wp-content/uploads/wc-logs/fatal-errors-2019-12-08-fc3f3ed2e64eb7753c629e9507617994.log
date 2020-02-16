@@ -1,0 +1,20 @@
+2019-12-08T20:32:52+00:00 CRITICAL Uncaught Error: Call to undefined method WCFM_Dependencies::wcfm_wc_tiered_price_table_active_check() in /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm-integrations.php:129
+Stack trace:
+#0 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(251): WCFM_Integrations->__construct()
+#1 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(286): WCFM->init('')
+#2 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-settings.php(525): do_action('init')
+#5 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-config.php(82): require_once('/homepages/41/d...')
+#6 /homepages/41/d790712531/h dans /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm-integrations.php à la ligne 129
+
+2019-12-08T20:32:52+00:00 CRITICAL Uncaught Error: Call to undefined method WCFM_Dependencies::wcfm_wc_tiered_price_table_active_check() in /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm-integrations.php:129
+Stack trace:
+#0 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(251): WCFM_Integrations->__construct()
+#1 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(286): WCFM->init('')
+#2 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-settings.php(525): do_action('init')
+#5 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-config.php(82): require_once('/homepages/41/d...')
+#6 /homepages/41/d790712531/h dans /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm-integrations.php à la ligne 129
+

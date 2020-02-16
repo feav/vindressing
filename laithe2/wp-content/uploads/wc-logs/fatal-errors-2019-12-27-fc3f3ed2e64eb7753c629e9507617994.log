@@ -1,0 +1,22 @@
+2019-12-27T09:55:03+00:00 CRITICAL require(): Failed opening required 'WPGDPRC.php' (include_path='.:/usr/lib/php7.0') dans /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wp-gdpr-compliance/wp-gdpr-compliance.php à la ligne 446
+
+2019-12-27T20:13:57+00:00 CRITICAL Uncaught Error: Call to undefined method WCFM_Dependencies::wcfm_wc_tiered_price_table_premium_active_check() in /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm-integrations.php:129
+Stack trace:
+#0 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm.php(251): WCFM_Integrations->__construct()
+#1 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(288): WCFM->init('')
+#2 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-settings.php(523): do_action('init')
+#5 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-config.php(82): require_once('/homepages/41/d...')
+#6 /homepages/41/d790 dans /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/wc-frontend-manager/core/class-wcfm-integrations.php à la ligne 129
+
+2019-12-27T20:13:57+00:00 CRITICAL Uncaught Error: Class 'Automattic\Jetpack\Tracking' not found in /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/jetpack/src/Tracking.php:18
+Stack trace:
+#0 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(288): Automattic\Jetpack\Plugin\Tracking->init('')
+#1 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-settings.php(523): do_action('init')
+#4 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-config.php(82): require_once('/homepages/41/d...')
+#5 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-load.php(37): require_once('/homepages/41/d...')
+#6 /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-blog-header.php(13): require_once('/homepages/41/ dans /homepages/41/d790712531/htdocs/clickandbuilds/vindressing/wp-content/plugins/jetpack/src/Tracking.php à la ligne 18
+

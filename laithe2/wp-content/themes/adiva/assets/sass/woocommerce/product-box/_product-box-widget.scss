@@ -1,0 +1,52 @@
+// Small Product
+#small-product {
+
+    .product-item {
+        width: 100% !important;
+    }
+
+    .title_2 {
+        margin-bottom: 30px;
+
+        &:after {
+            margin: 0;
+        }
+    }
+
+    .adiva-countdown {
+        display: none;
+    }
+
+    .product-box {
+        .product-thumb {
+            width: 90px;
+            float: left;
+
+            .imageswatch-list-variations {
+                display: none;
+            }
+        }
+
+        .star-rating {
+            margin-left: 0;
+        }
+
+        .product-info {
+            text-align: left;
+            width: calc(100% - 90px);
+            float: left;
+            padding: 8px 0 0 20px;
+
+            > a {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+
+        .badge,
+        .product-btn {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+// Product List
+.product-list-item {
+    .product-box {
+        &:hover {
+            .product-thumb {
+                > a {
+                    &:after {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.product-list-info {
+    text-align: left;
+
+    .woocommerce-product-details__short-description {
+        margin-bottom: 30px;
+    }
+
+    .star-rating {
+        margin: 0px 0 7px;
+    }
+
+    .product-btn {
+        .button-cart {
+            background-color: $primary-color;
+            border-color: $primary-color;
+
+            &:before {
+                color: white;
+            }
+
+            .tooltip {
+                position: inherit;
+                font-size: inherit !important;
+                opacity: 1;
+                background: transparent;
+                width: auto;
+                height: auto;
+                top: auto;
+                left: auto;
+                right: auto;
+                padding: 0;
+                border-radius: 0;
+                line-height: 50px;
+                text-transform: uppercase;
+                font-weight: 500;
+                @include transform(none);
+
+                &:after {
+                    content: none;
+                }
+            }
+        }
+
+        .yith-wcwl-add-to-wishlist {
+            &:hover {
+                border-color: $primary-color;
+            }
+        }
+    }
+
+    .product-list-info-top {
+        border-bottom: 1px solid #E6E6E6;
+        padding-bottom: 26px;
+        margin-bottom: 23px;
+
+        > a {
+            display: inline-block;
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+}

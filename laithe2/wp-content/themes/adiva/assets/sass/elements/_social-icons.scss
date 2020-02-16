@@ -1,0 +1,552 @@
+
+
+/** ------------------------------------------------------------------------------------------------
+* SOCIAL ICONS
+* ------------------------------------------------------------------------------------------------ */
+.social-list-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        display: inline-block;
+
+        a {
+            border-radius: 50%;
+            padding: 6px;
+            color: #828282;
+        }
+    }
+
+}
+
+.adiva-social-icons {
+    font-size: 0;
+
+    &.icon-align-left {
+        justify-content: flex-start;
+    }
+
+    &.icon-align-center {
+        justify-content: center;
+    }
+
+    &.icon-align-right {
+        justify-content: flex-end;
+    }
+
+    .adiva-social-icon {
+
+        a {
+            display: inline-block;
+            font-size: 0;
+            text-align:center;
+        }
+
+        i {
+            font-size: 14px;
+        }
+    }
+
+    &:not(.icons-design-default) {
+
+        .adiva-social-icon {
+
+            a {
+                width:30px;
+                height:30px;
+            }
+
+            i {
+                line-height: 30px;
+            }
+        }
+    }
+
+    &.icons-design-default {
+
+         .adiva-social-icon {
+
+            a {
+                padding: 6px;
+                color:rgba(0,0,0,0.6);
+
+                &:hover {
+                    color:rgba(0,0,0,0.8);
+                }
+            }
+        }
+    }
+
+    &.icons-design-colored-alt {
+
+        .adiva-social-icon {
+            margin: 4px;
+
+            a {
+                color: rgba(0, 0, 0, 0.4);
+                background-color: #efefef;
+            }
+        }
+    }
+
+    &.icons-design-bordered {
+
+        .adiva-social-icon {
+            margin: 4px;
+
+            a {
+                background-color: transparent;
+                color: rgba(0, 0, 0, 0.4);
+                border:2px solid #cccccc;
+            }
+
+            i {
+                margin-top: -2px;
+            }
+        }
+    }
+
+    &.icons-design-colored {
+
+         .adiva-social-icon {
+            margin: 4px;
+
+            a {
+                color: white;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            &.social-facebook {
+
+                a {
+                    background-color: #365493;
+                }
+            }
+
+            &.social-twitter {
+
+                a {
+                    background-color: #3CF;
+                }
+            }
+
+            &.social-google,
+            &.social-google-plus {
+
+                a {
+                    background-color: rgb(212, 65, 50);
+                }
+            }
+
+            &.social-instagram {
+
+                a {
+                    background-color:#774430;
+                }
+            }
+
+            &.social-email {
+
+                a {
+                    background-color: #F89A1E;
+                }
+            }
+
+            &.social-pinterest {
+
+                a {
+                    background-color: #CB2027;
+                }
+            }
+
+            &.social-youtube {
+
+                a {
+                    background-color: #CB2027;
+                }
+            }
+
+            &.social-tumblr {
+
+                a {
+                    background-color: #36465d;
+                }
+            }
+
+
+            &.social-linkedin {
+
+                a {
+                    background-color: #0274b3;
+                }
+            }
+
+
+            &.social-vimeo {
+
+                a {
+                    background-color: #1ab7ea;
+                }
+            }
+
+
+            &.social-flickr {
+                a {
+                    background-color: #fe0072;
+                }
+            }
+
+
+            &.social-github {
+
+                a {
+                    background-color: #171515;
+                }
+            }
+
+
+            &.social-dribbble {
+
+                a {
+                    background-color: #ec5e95;
+                }
+            }
+
+
+            &.social-behance {
+
+                a {
+                    background-color: #1f6ffc;
+                }
+            }
+
+
+            &.social-soundcloud {
+
+                a {
+                    background-color: #f9490d;
+                }
+            }
+
+
+            &.social-spotify {
+
+                a {
+                    background-color: #2ebd59;
+                }
+            }
+
+
+            &.social-skype {
+
+                a {
+                    background-color: #00aff0;
+                }
+            }
+
+            &.social-ok {
+
+                a {
+                    background-color: #EE8208;
+                }
+            }
+
+            &.social-whatsapp {
+
+                a {
+                    background-color: #1EBEA5;
+                }
+            }
+        }
+    }
+
+    &.icons-design-colored-alt,
+    &.icons-design-bordered {
+
+        .adiva-social-icon {
+
+            a {
+
+                &:hover {
+                    color:white;
+                }
+            }
+
+            &.social-facebook {
+
+                a:hover {
+                    background-color: #365493;
+                    border-color: #365493;
+                }
+
+            }
+
+            &.social-twitter {
+
+                a:hover {
+                    background-color: #3CF;
+                    border-color: #3CF;
+                }
+
+            }
+
+            &.social-instagram {
+
+                a:hover {
+                    background-color: #774430;
+                    border-color: #774430;
+                }
+
+            }
+
+             &.social-google,
+             &.social-google-plus {
+
+                a:hover {
+                    background-color: #d44132;
+                    border-color: #d44132;
+                }
+
+            }
+
+            &.social-email {
+
+                a:hover {
+                    background-color: #F89A1E;
+                    border-color: #F89A1E;
+                }
+
+            }
+
+            &.social-youtube {
+
+                a:hover {
+                    background-color: #CB2027;
+                    border-color: #CB2027;
+                }
+
+            }
+
+            &.social-pinterest {
+
+                a:hover {
+                    background-color: #CB2027;
+                    border-color: #CB2027;
+                }
+            }
+
+            &.social-tumblr {
+
+                a:hover {
+                    background-color: #36465d;
+                    border-color: #36465d;
+                }
+            }
+
+
+            &.social-linkedin {
+
+                a:hover {
+                    background-color: #0274b3;
+                    border-color: #0274b3;
+                }
+            }
+
+
+            &.social-vimeo {
+
+                a:hover {
+                    background-color: #1ab7ea;
+                    border-color: #1ab7ea;
+                }
+            }
+
+
+            &.social-flickr {
+
+                a:hover {
+                    background-color: #fe0072;
+                    border-color: #fe0072;
+                }
+            }
+
+
+            &.social-github {
+
+                a:hover {
+                    background-color: #171515;
+                    border-color: #171515;
+                }
+            }
+
+
+            &.social-dribbble {
+
+                a:hover {
+                    background-color: #ec5e95;
+                    border-color: #ec5e95;
+                }
+            }
+
+
+            &.social-behance {
+
+                a:hover {
+                    background-color: #1f6ffc;
+                    border-color: #1f6ffc;
+                }
+            }
+
+
+            &.social-soundcloud {
+
+                a:hover {
+                    background-color: #f9490d;
+                    border-color: #f9490d;
+                }
+            }
+
+
+            &.social-spotify {
+
+                a:hover {
+                    background-color: #2ebd59;
+                    border-color: #2ebd59;
+                }
+            }
+
+
+            &.social-skype {
+
+                a:hover {
+                    background-color: #00aff0;
+                    border-color: #00aff0;
+                }
+            }
+
+            &.social-ok {
+
+                a:hover {
+                    background-color: #EE8208;
+                    border-color: #EE8208;
+                }
+            }
+
+            &.social-whatsapp {
+
+                a:hover {
+                    background-color: #1EBEA5;
+                    border-color: #1EBEA5;
+                }
+            }
+        }
+    }
+
+    &.icons-size-default {
+
+        .adiva-social-icon {
+
+            i {
+                font-size:18px;
+            }
+        }
+
+        &:not(.icons-design-default) {
+
+            .adiva-social-icon {
+
+                a {
+                    width:40px;
+                    height:40px;
+                }
+
+                i {
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+    &.icons-size-large {
+
+        .adiva-social-icon {
+
+            i {
+                font-size:22px;
+            }
+        }
+
+        &:not(.icons-design-default) {
+
+            .adiva-social-icon {
+
+                a {
+                    width:60px;
+                    height:60px;
+                }
+
+                i {
+                    line-height: 60px;
+                }
+            }
+        }
+    }
+
+    &.social-form-circle {
+
+        .adiva-social-icon {
+
+            a {
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &.color-scheme-light,
+    .color-scheme-light &,
+    .header-color-light .topbar-text > &,
+    .header-color-light .widgetarea-head > &,
+    .header-color-light .menu-text-widget > & {
+
+        &.icons-design-simple,
+        &.icons-design-colored-alt {
+
+            .adiva-social-icon {
+
+                a {
+                    background-color: rgba(255, 255, 255, 0.3);
+                    color: white;
+                }
+            }
+        }
+
+        &.icons-design-default {
+
+            .adiva-social-icon {
+
+                a {
+                    color:rgba(255,255,255,1);
+
+                    &:hover {
+                        color:rgba(255,255,255,.6);
+                    }
+                }
+            }
+        }
+
+        &.icons-design-bordered {
+
+            .adiva-social-icon {
+
+                a {
+                    color: rgba(255, 255, 255, 1);
+                    border: 2px solid rgba(255, 255, 255, .4);
+                }
+            }
+        }
+    }
+}

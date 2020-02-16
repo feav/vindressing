@@ -1,0 +1,175 @@
+.addon-title {
+    margin-bottom: 30px;
+
+    .title {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .subtitle {
+        &.style-background {
+            font-weight: 600;
+            line-height: 1.2;
+            padding: 6px 10px;
+            display: inline-block;
+        }
+    }
+
+    .line-wrap {
+        display: block;
+        position: relative;
+    }
+
+    .left-line,
+    .right-line {
+        display: none;
+    }
+}
+
+// TITLE SIZE
+.title-size-small {
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
+
+.title-size-default {
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+}
+
+
+
+.title-size-medium {
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+}
+
+.title-size-large {
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+}
+
+// TITLE COLOR
+.title-color-default {
+    .subtitle {
+        //color: #989898;
+
+        &.style-background {
+            color: #333;
+            background-color: #f4f4f4;
+        }
+    }
+}
+
+.title-color-primary {
+    .subtitle {
+        color: $primary-color;
+
+        &.style-background {
+            color: white;
+            background-color: $primary-color;
+        }
+    }
+
+    .description {
+        color: #989898;
+    }
+}
+
+.title-color-black {
+    .subtitle {
+        color: #000000;
+
+        &.style-background {
+            color: white;
+            background-color: #333333;
+        }
+    }
+
+    .description {
+        color: #000000;
+    }
+}
+
+.title-color-white {
+    .subtitle {
+        color: rgba(255,255,255,0.8);
+
+        &.style-background {
+            color: #212121;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    .description {
+        color: rgba(255,255,255,0.8);
+    }
+
+    .title {
+        color: white;
+    }
+}
+
+
+// STYLE 2
+.title_2 {
+    font-size: 19px;
+    position: relative;
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+
+    &:after {
+        content: '';
+        width: 40px;
+        height: 2px;
+        background-color: #d7d7d7;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+@import 'banner';
+@import 'promobar';
+@import 'portfolio';
+@import 'instagram';
+@import 'service';
+@import 'brand';
+@import 'products';
+@import 'testimonial';
+@import 'team-member';
+@import 'social-icons';
+@import 'megamenu-widget';
+@import 'google-maps';
+@import 'information-box';
+@import 'gallery';
+@import 'countdown-timer';
+@import 'pricing-tables';
+@import 'section-divider';

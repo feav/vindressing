@@ -1,0 +1,37 @@
+/* ==========================================================================
+   1.5 TABLE
+   ========================================================================== */
+
+table {
+	width: 100%;
+	margin-bottom: 35px;
+	line-height: 1.4;
+
+
+	th {
+		padding: 15px 10px;
+		text-align: left;
+		font-weight: 600;
+		text-transform:uppercase;
+		color: $heading-color;
+		vertical-align: middle;
+		border: none;
+		border-bottom: 2px solid #EFEFEF;
+	}
+
+	td {
+		padding: 15px 12px;
+		border: none;
+		text-align: left;
+		border-bottom: 1px solid #E6E6E6;
+	}
+
+	tbody,
+	tfoot {
+
+		th {
+			border-bottom: 1px solid #E6E6E6;
+   			text-transform: none;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+=== START import 2019-11-29 17:46:51 ===
+[ERROR] Impossible de se connecter à la base de données de PrestaShop. Merci de vérifier vos paramètres. Et soyez certains que le serveur WordPress ait accès à la base de données de PrestaShop.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Veuillez lire la <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ pour la solution</a>.
+=== END import 2019-11-29 17:46:51 ===
+
+=== START test_database 2019-11-29 18:27:00 ===
+[ERROR] Impossible de se connecter à la base de données de PrestaShop. Merci de vérifier vos paramètres. Et soyez certains que le serveur WordPress ait accès à la base de données de PrestaShop.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Veuillez lire la <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ pour la solution</a>.
+=== END test_database 2019-11-29 18:27:00 ===
+

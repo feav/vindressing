@@ -1,0 +1,30 @@
+.header-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 390;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-color: white;
+    @include transform(translateY(-80%));
+    @include transition(all 0.5s ease);
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: inherit;
+        @include transform(translateY(0));
+    }
+
+    .wrap-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.admin-bar .header-sticky {
+    top: 32px;
+}

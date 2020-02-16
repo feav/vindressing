@@ -1,0 +1,55 @@
+body.offline {
+    background-image: url('assets/images/maintenance.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.maintenance-content {
+    height: 100vh;
+    flex-direction: column;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 30px;
+
+    h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    .adiva-countdown {
+        margin-top: 15px;
+        display: block;
+    	font-size: 0;
+    	line-height: 1;
+
+    	> span {
+    		display: inline-flex;
+    		flex-direction: column;
+    	    align-items: center;
+    	    justify-content: center;
+    	    margin-right: 10px;
+            margin-bottom: 10px;
+    	  	min-width: 65px;
+    	  	min-height: 65px;
+    		font-size: 21px;
+    		line-height: 20px;
+            background: rgba(0,0,0,0.3);
+    		font-weight: 600;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+    		span {
+                padding-top: 3px;
+    			font-weight: 400;
+    			font-size: 12px;
+    		  	line-height: 10px;
+    			display:block;
+    			margin-top: 5px;
+    		}
+    	}
+    }
+}

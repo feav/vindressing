@@ -1,0 +1,166 @@
+// Filter categories
+.special-filter {
+    .product-categories {
+        > li {
+            position: relative;
+            display: inline-block;
+            float: none;
+            padding: 0 25px;
+            margin-bottom: 0;
+
+            &:before {
+                position: absolute;
+                top: -3px;
+                left: -6px;
+                content: '|';
+            }
+
+            &:first-child {
+                padding-left: 0;
+
+                &:before {
+                    content: none;
+                }
+            }
+
+            > a {
+                display: inline-block;
+                line-height: 25px;
+                color: #000000;
+                position: relative;
+                font-size: 17px;
+                text-transform: uppercase;
+                border-radius: 0;
+
+                &:hover, &:focus {
+                    color: $primary-color;
+                }
+            }
+
+            .count {
+                color: $primary-color;
+                float: none;
+                font-size: 12px;
+                top: -10px;
+                position: absolute;
+            }
+
+            &.active {
+                > a {
+                    color: $primary-color;
+                }
+            }
+
+        }
+    }
+}
+
+
+// filter
+.shop-filter-toggle {
+    span.filter-text {
+        font-weight: 400;
+        color: black;
+        font-size: 17px;
+        padding-right: 10px;
+        cursor: pointer;
+        text-transform: uppercase;
+        line-height: 32px;
+    }
+
+    .hamburger-box {
+        width: 17px;
+        display: inline-block;
+    }
+
+    .hamburger-inner {
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        width: 17px;
+        height: 2px;
+        background: #000;
+        @include transition(background .01s ease .2s);
+
+
+        &:before, &:after {
+            content: "";
+            width: 17px;
+            height: 2px;
+            background: #000000;
+            position: absolute;
+            top: -5px;
+            -moz-transition: top .2s ease .2s,transform .2s ease 0s,width .01s ease .2s;
+            -o-transition: top .2s ease .2s,transform .2s ease 0s,width .01s ease .2s;
+            -webkit-transition: top .2s ease .2s,transform .2s ease 0s,width .01s ease .2s;
+            transition: top .2s ease .2s,transform .2s ease 0s,width .01s ease .2s;
+
+        }
+
+        &:after {
+            top: 5px;
+        }
+
+    }
+
+    &.open {
+        .hamburger-inner {
+            background: transparent;
+
+            &:before, &:after {
+                -moz-transition: top .2s ease,transform .2s ease .2s,width .01s ease .2s;
+                -o-transition: top .2s ease,transform .2s ease .2s,width .01s ease .2s;
+                -webkit-transition: top .2s ease,transform .2s ease .2s,width .01s ease .2s;
+                transition: top .2s ease,transform .2s ease .2s,width .01s ease .2s;
+            }
+
+            &:before {
+                top: 0;
+                @include transform(rotate(-45deg));
+            }
+
+            &:after {
+                top: 0;
+                @include transform(rotate(45deg));
+            }
+
+        }
+    }
+
+}
+
+.shop-filter {
+    display: none;
+    background-color: #F5F5F5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    &.open {
+        display: block;
+    }
+
+    .filter-toggle-box {
+        padding: 40px 40px 10px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .widget {
+        float: left;
+        width: 25%;
+        clear: none;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .widgettitle {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+}
